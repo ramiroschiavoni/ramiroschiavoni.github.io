@@ -132,7 +132,7 @@ body[data-lang="en"] .lang-es{ display:none; }
   inset: 0;
   background-image: url('../assets/perfil.jpg');
   background-size: cover;
-  background-position: center 30%;
+  background-position: 85% 30%;
   filter: grayscale(1) contrast(1.05);
   transform: scale(1.02); /* avoid edge seams while animating */
   transition: filter var(--dur) var(--ease), opacity var(--dur) var(--ease);
@@ -182,7 +182,7 @@ body.panel-open .portrait{
   content: '';
   position: absolute;
   inset: 0 0 55% 0;
-  background: linear-gradient(180deg, rgba(255,255,255,.28), rgba(255,255,255,0));
+  background: linear-gradient(180deg, rgba(255,255,255,.238), rgba(255,255,255,0));
   pointer-events: none;
 }
 
