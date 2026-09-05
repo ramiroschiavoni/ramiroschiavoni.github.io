@@ -26,7 +26,7 @@ const cardOrderEs = [
 ];
 const cardOrderEn = [
   'Artistic work', 'Pianist', 'Composer', 'Discography', 'Writer',
-  'Publications', 'Booking', 'Press Photography', 'Audiovisual',
+  'Publications', 'Booking', 'Press', 'Audiovisual',
   'Producer & DJ', 'Glowing Piano', 'See the Music'
 ];
 const pressImageCount = 12;
@@ -194,7 +194,7 @@ function openBrandPanel(updateHistory = true) {
 
   const introText = currentLanguage === 'en'
     ? '<p>Welcome to my creative universe.<br>Thank you for supporting my art, watching my videos on YouTube, listening to my music on Spotify, and purchasing my books on Ko-Fi.</p>'
-    : '<p>Bienvenido a mi universo creativo.<br>Gracias por apoyar mi arte, ver mis videos en YouTube, escuchar mi música en Spotify y comprar mis libros en Ko-Fi.</p>';
+    : '<p>Bienvenid@ a mi universo creativo.<br>Gracias por apoyar mi arte, ver mis videos en YouTube, escuchar mi música en Spotify y comprar mis libros en Ko-Fi.</p>';
 
   const photoAlt = currentLanguage === 'en'
     ? 'Profile photo of Ramiro Schiavoni'

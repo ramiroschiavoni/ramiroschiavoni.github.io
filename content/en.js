@@ -1379,7 +1379,7 @@
         <p>Available for shows, collaborations and custom projects.</p>
         <h3>Contact</h3>
         <p><a href="mailto:ramiroschiavoni@gmail.com">ramiroschiavoni@gmail.com</a></p>` },
-  { h: 188, s: '78%', l: '32%', title: 'Press Photography', text: `
+  { h: 188, s: '78%', l: '32%', title: 'Press', text: `
         <div class="bio-heading"><h3>Bio</h3><a class="bio-pdf-link" href="ramiroschiavoni_bio_en.pdf" target="_blank" rel="noopener" aria-label="Download PDF version"><svg viewBox="0 0 72 44" role="img" aria-hidden="true"><text x="2" y="22">PDF</text><path d="M49 5v24M40 20l9 9 9-9M39 38h20"/></svg></a></div>
         <div class="bio-section">
         <details class="accordion">
