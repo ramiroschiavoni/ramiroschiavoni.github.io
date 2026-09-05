@@ -34,7 +34,8 @@ const cardOrderEn = [
   'Producer & DJ', 'Glowing Piano', 'See the Music'
 ];
 const pressImageCount = 12;
-const backgroundElements = [document.querySelector('.topbar'), document.getElementById('stage'), panel, pressLightbox];
+// langToggle instead of the whole .topbar so profileTrigger (mid pointer-capture) never becomes inert
+const backgroundElements = [langButton, document.getElementById('stage'), panel, pressLightbox];
 
 let sections = [...esSections].sort((a, b) => cardOrderEs.indexOf(a.title) - cardOrderEs.indexOf(b.title));
 let currentLanguage = 'es';
