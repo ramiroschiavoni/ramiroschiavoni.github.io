@@ -238,8 +238,7 @@ function closePanel(fromHistory = true) {
   if (fromHistory && panelHistoryState) {
     panelHistoryState = false;
     history.back();
-  }
-  if (location.hash) {
+  } else if (location.hash) {
     history.replaceState(null, '', `${location.pathname}${location.search}`);
   }
 }
@@ -355,8 +354,22 @@ async function switchLanguage() {
 
 renderStripes();
 updateInterfaceLabels();
-if (location.hash) {
-  history.replaceState(null, '', `${location.pathname}${location.search}`);
+if (location.hash === '#bio') {
+  lastPanelTrigger = document.getElementById('profileTrigger');
+  openBrandPanel(false);
+} else if (location.hash) {
+  const match = location.hash.match(/^#section-(\d+)$/);
+  if (match) {
+    const idx = parseInt(match[1], 10);
+    if (idx >= 0 && idx < sections.length) {
+      lastPanelTrigger = stripesEl.querySelector(`.stripe[data-index="${idx}"]`);
+      openPanel(idx, false);
+    } else {
+      history.replaceState(null, '', `${location.pathname}${location.search}`);
+    }
+  } else {
+    history.replaceState(null, '', `${location.pathname}${location.search}`);
+  }
 }
 
 langButton.addEventListener('click', switchLanguage);
