@@ -1379,7 +1379,7 @@
         <p>Available for shows, collaborations and custom projects.</p>
         <h3>Contact</h3>
         <p><a href="mailto:ramiroschiavoni@gmail.com">ramiroschiavoni@gmail.com</a></p>` },
-  { h: 188, s: '78%', l: '32%', title: 'Press Photography & Networks', text: `
+  { h: 188, s: '78%', l: '32%', title: 'Press Photography', text: `
         <div class="bio-heading"><h3>Bio</h3><a class="bio-pdf-link" href="ramiroschiavoni_bio_en.pdf" target="_blank" rel="noopener" aria-label="Download PDF version"><svg viewBox="0 0 72 44" role="img" aria-hidden="true"><text x="2" y="22">PDF</text><path d="M49 5v24M40 20l9 9 9-9M39 38h20"/></svg></a></div>
         <div class="bio-section">
         <details class="accordion">
@@ -1429,47 +1429,6 @@
         <div class="press-carousel" data-press-carousel>
           <div class="publication-carousel-head"><span>1 / 12</span></div>
           <div class="press-carousel-stage"><button class="publication-arrow press-prev" type="button" aria-label="Previous photo">&#8249;</button><div class="press-slide"><button class="press-image-button" type="button" data-press-index="0"><img src="assets/fotosprensa/1.jpg" alt="Press photograph 1"></button></div><button class="publication-arrow press-next" type="button" aria-label="Next photo">&#8250;</button></div>
-        </div>
-        <h3>Networks</h3>
-        <div class="social-orbit">
-          <a class="orbit-center" href="https://ko-fi.com/ramiroschiavoni" target="_blank" rel="noopener" aria-label="Ko-fi">
-            <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
-              <circle cx="24" cy="24" r="22" fill="#ffd9bd"/>
-              <path d="M10 13h25v15a7 7 0 0 1-7 7H17a7 7 0 0 1-7-7V13Z" fill="none" stroke="#252525" stroke-width="3" stroke-linejoin="round"/>
-              <path d="M35 16h2a7 7 0 0 1 0 14h-2" fill="none" stroke="#252525" stroke-width="3" stroke-linecap="round"/>
-              <path d="M16 21c0-3.2 4.2-4.2 6.5-1.5C24.8 16.8 29 17.8 29 21c0 4.2-6.5 8-6.5 8S16 25.2 16 21Z" fill="#f04444"/>
-            </svg>
-          </a>
-          <div class="orbit-item">
-            <a class="orbit-link" href="https://www.youtube.com/ramiroschiavoni" target="_blank" rel="noopener" aria-label="YouTube">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2 .5-1.7.5-5.3.5-5.3ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg>
-            </a>
-          </div>
-          <div class="orbit-item">
-            <a class="orbit-link" href="https://www.instagram.com/ramiro.schiavoni/" target="_blank" rel="noopener" aria-label="Instagram">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
-            </a>
-          </div>
-          <div class="orbit-item">
-            <a class="orbit-link" href="https://www.tiktok.com/@ramiroschiavoni" target="_blank" rel="noopener" aria-label="TikTok">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 3h3c.2 1.8 1.3 3.3 3 4v3c-1.5 0-2.9-.4-4-1.2v6.7A5.5 5.5 0 1 1 10.5 10a5.6 5.6 0 0 1 1 .1v3.2a2.4 2.4 0 1 0 1.7 2.3V3Z"/></svg>
-            </a>
-          </div>
-          <div class="orbit-item">
-            <a class="orbit-link" href="https://open.spotify.com/artist/6RZfrnfdtygvgrRtaeGblY" target="_blank" rel="noopener" aria-label="Spotify">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M7 9.8c3.3-1 7-.7 10 1"/><path d="M7.3 12.8c2.7-.8 5.8-.6 8.4.8"/><path d="M7.6 15.6c2.2-.6 4.6-.4 6.6.7"/></svg>
-            </a>
-          </div>
-          <div class="orbit-item">
-            <a class="orbit-link" href="https://www.facebook.com/ramiroschiavoni" target="_blank" rel="noopener" aria-label="Facebook">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 1.6 19.9v-7h-1.9v-2.7h1.9V10c0-1.9 1.1-3 3-3 .8 0 1.7.1 1.7.1v2h-1c-.9 0-1.2.6-1.2 1.2v1.7h2.1l-.3 2.7h-1.8v7A10 10 0 0 0 12 2Z"/></svg>
-            </a>
-          </div>
-          <div class="orbit-item">
-            <a class="orbit-link" href="mailto:ramiroschiavoni@gmail.com" aria-label="Email">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>
-            </a>
-          </div>
         </div>
         </div>` },
 ];

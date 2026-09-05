@@ -11,9 +11,6 @@ const panelIndex = panel.querySelector('.panel-index');
 const closePanelButton = document.getElementById('closePanel');
 const scrollTopButton = document.getElementById('scrollTopBtn');
 const langButton = document.getElementById('langToggle');
-const profileOverlay = document.getElementById('profileOverlay');
-const profileOverlayTitle = document.getElementById('profileOverlayTitle');
-const profileImage = profileOverlay.querySelector('img');
 const pressLightbox = document.getElementById('pressLightbox');
 const pressImage = document.getElementById('pressLightboxImage');
 const pressDownload = document.getElementById('pressDownload');
@@ -24,17 +21,58 @@ const pressNext = document.getElementById('pressNext');
 
 const cardOrderEs = [
   'Obra artística', 'Pianista', 'Compositor', 'Discografía', 'Escritor',
-  'Publicaciones', 'Contrataciones', 'Prensa & Redes', 'Audiovisual',
+  'Publicaciones', 'Contrataciones', 'Prensa', 'Audiovisual',
   'Productor & DJ', 'Glowing Piano', 'Ver la Música'
 ];
 const cardOrderEn = [
   'Artistic work', 'Pianist', 'Composer', 'Discography', 'Writer',
-  'Publications', 'Booking', 'Press Photography & Networks', 'Audiovisual',
+  'Publications', 'Booking', 'Press Photography', 'Audiovisual',
   'Producer & DJ', 'Glowing Piano', 'See the Music'
 ];
 const pressImageCount = 12;
-// langToggle instead of the whole .topbar so profileTrigger (mid pointer-capture) never becomes inert
 const backgroundElements = [langButton, document.getElementById('stage'), panel, pressLightbox];
+
+const socialOrbitHtml = `
+<div class="social-orbit">
+  <a class="orbit-center" href="https://ko-fi.com/ramiroschiavoni" target="_blank" rel="noopener" aria-label="Ko-fi">
+    <svg viewBox="0 0 48 48" role="img" aria-hidden="true">
+      <circle cx="24" cy="24" r="22" fill="#ffd9bd"/>
+      <path d="M10 13h25v15a7 7 0 0 1-7 7H17a7 7 0 0 1-7-7V13Z" fill="none" stroke="#252525" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M35 16h2a7 7 0 0 1 0 14h-2" fill="none" stroke="#252525" stroke-width="3" stroke-linecap="round"/>
+      <path d="M16 21c0-3.2 4.2-4.2 6.5-1.5C24.8 16.8 29 17.8 29 21c0 4.2-6.5 8-6.5 8S16 25.2 16 21Z" fill="#f04444"/>
+    </svg>
+  </a>
+  <div class="orbit-item">
+    <a class="orbit-link" href="https://www.youtube.com/ramiroschiavoni" target="_blank" rel="noopener" aria-label="YouTube">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2 .5-1.7.5-5.3.5-5.3ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg>
+    </a>
+  </div>
+  <div class="orbit-item">
+    <a class="orbit-link" href="https://www.instagram.com/ramiro.schiavoni/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+    </a>
+  </div>
+  <div class="orbit-item">
+    <a class="orbit-link" href="https://www.tiktok.com/@ramiroschiavoni" target="_blank" rel="noopener" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 3h3c.2 1.8 1.3 3.3 3 4v3c-1.5 0-2.9-.4-4-1.2v6.7A5.5 5.5 0 1 1 10.5 10a5.6 5.6 0 0 1 1 .1v3.2a2.4 2.4 0 1 0 1.7 2.3V3Z"/></svg>
+    </a>
+  </div>
+  <div class="orbit-item">
+    <a class="orbit-link" href="https://open.spotify.com/artist/6RZfrnfdtygvgrRtaeGblY" target="_blank" rel="noopener" aria-label="Spotify">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9.2"/><path d="M7 9.8c3.3-1 7-.7 10 1"/><path d="M7.3 12.8c2.7-.8 5.8-.6 8.4.8"/><path d="M7.6 15.6c2.2-.6 4.6-.4 6.6.7"/></svg>
+    </a>
+  </div>
+  <div class="orbit-item">
+    <a class="orbit-link" href="https://www.facebook.com/ramiroschiavoni" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 1 0 1.6 19.9v-7h-1.9v-2.7h1.9V10c0-1.9 1.1-3 3-3 .8 0 1.7.1 1.7.1v2h-1c-.9 0-1.2.6-1.2 1.2v1.7h2.1l-.3 2.7h-1.8v7A10 10 0 0 0 12 2Z"/></svg>
+    </a>
+  </div>
+  <div class="orbit-item">
+    <a class="orbit-link" href="mailto:ramiroschiavoni@gmail.com" aria-label="Correo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m4 7 8 6 8-6"/></svg>
+    </a>
+  </div>
+</div>`;
 
 let sections = [...esSections].sort((a, b) => cardOrderEs.indexOf(a.title) - cardOrderEs.indexOf(b.title));
 let currentLanguage = 'es';
@@ -79,19 +117,10 @@ function renderStripes() {
 
   brandButton.append(brandLabel);
 
-  brandButton.addEventListener('pointerdown', (event) => {
-    event.preventDefault();
-    brandButton.setPointerCapture(event.pointerId);
-    showProfile();
+  brandButton.addEventListener('click', () => {
+    lastPanelTrigger = brandButton;
+    openBrandPanel();
   });
-  brandButton.addEventListener('keydown', (event) => {
-    if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); showProfile(); }
-  });
-  brandButton.addEventListener('keyup', (event) => {
-    if (event.key === ' ' || event.key === 'Enter') hideProfile();
-  });
-  ['pointerup', 'pointercancel', 'lostpointercapture'].forEach((name) => brandButton.addEventListener(name, hideProfile));
-  brandButton.addEventListener('contextmenu', (event) => event.preventDefault());
 
   fragment.appendChild(brandButton);
 
@@ -148,18 +177,36 @@ function updateFocusTrap(dialog, event) {
   }
 }
 
-function showProfile() {
-  profileOverlay.classList.add('is-visible');
-  profileOverlay.setAttribute('aria-hidden', 'false');
-  backgroundElements.forEach((element) => element?.setAttribute('inert', ''));
-}
+function openBrandPanel(updateHistory = true) {
+  openIndex = -2;
+  if (updateHistory && !body.classList.contains('panel-open')) {
+    history.pushState({ panel: 'brand' }, '', `${location.pathname}${location.search}#bio`);
+    panelHistoryState = true;
+  }
+  root.style.setProperty('--active-h', '270');
+  root.style.setProperty('--active-s', '65%');
+  root.style.setProperty('--active-l', '18%');
 
-function hideProfile() {
-  if (!profileOverlay.classList.contains('is-visible')) return;
-  profileOverlay.classList.remove('is-visible');
-  profileOverlay.setAttribute('aria-hidden', 'true');
-  backgroundElements.forEach((element) => element?.removeAttribute('inert'));
-  document.getElementById('profileTrigger')?.focus({ preventScroll: true });
+  panelIndex.textContent = '';
+  panelTitle.textContent = currentLanguage === 'en'
+    ? 'Ramiro Schiavoni | Artistic Hub'
+    : 'Ramiro Schiavoni | Hub Artístico';
+
+  const introText = currentLanguage === 'en'
+    ? '<p>Welcome to my creative universe.<br>Thank you for supporting my art, watching my videos on YouTube, listening to my music on Spotify, and purchasing my books on Ko-Fi.</p>'
+    : '<p>Bienvenido a mi universo creativo.<br>Gracias por apoyar mi arte, ver mis videos en YouTube, escuchar mi música en Spotify y comprar mis libros en Ko-Fi.</p>';
+
+  const photoAlt = currentLanguage === 'en'
+    ? 'Profile photo of Ramiro Schiavoni'
+    : 'Foto de perfil de Ramiro Schiavoni';
+
+  panelText.innerHTML = `${introText}<img class="brand-profile-img" src="assets/perfil.jpg" alt="${photoAlt}">${socialOrbitHtml}`;
+
+  panel.setAttribute('aria-hidden', 'false');
+  body.classList.add('panel-open');
+  panelInner.scrollTop = 0;
+  scrollTopButton.classList.remove('visible');
+  closePanelButton.focus({ preventScroll: true });
 }
 
 function openPanel(index, updateHistory = true) {
@@ -259,22 +306,20 @@ function updateInterfaceLabels() {
     scrollTop: 'Back to top',
     previousPhoto: 'Previous photo',
     nextPhoto: 'Next photo',
-    download: 'Download',
-    profileTitle: 'Profile photo of Ramiro Schiavoni'
+    download: 'Download'
   } : {
     language: 'Cambiar idioma',
     close: 'Cerrar',
     scrollTop: 'Volver arriba',
     previousPhoto: 'Foto anterior',
     nextPhoto: 'Foto siguiente',
-    download: 'Descargar',
-    profileTitle: 'Foto de perfil de Ramiro Schiavoni'
+    download: 'Descargar'
   };
   const pTrigger = document.getElementById('profileTrigger');
   if (pTrigger) {
     pTrigger.setAttribute('aria-label', currentLanguage === 'en'
-      ? 'Ramiro Schiavoni | Artistic Hub - Show profile photo'
-      : 'Ramiro Schiavoni | Hub Artístico - Mostrar foto de perfil');
+      ? 'Ramiro Schiavoni | Artistic Hub'
+      : 'Ramiro Schiavoni | Hub Artístico');
   }
   langButton.setAttribute('aria-label', labels.language);
   closePanelButton.setAttribute('aria-label', labels.close);
@@ -283,8 +328,6 @@ function updateInterfaceLabels() {
   pressPrevious.setAttribute('aria-label', labels.previousPhoto);
   pressNext.setAttribute('aria-label', labels.nextPhoto);
   pressDownload.setAttribute('aria-label', labels.download);
-  profileOverlayTitle.textContent = labels.profileTitle;
-  profileImage.alt = labels.profileTitle;
 }
 
 async function switchLanguage() {
@@ -297,9 +340,12 @@ async function switchLanguage() {
   }
   body.dataset.lang = currentLanguage;
   document.documentElement.lang = currentLanguage;
+  const isBrandOpen = openIndex === -2 && body.classList.contains('panel-open');
   const panelWasOpen = openIndex >= 0 && body.classList.contains('panel-open');
   renderStripes();
-  if (panelWasOpen) {
+  if (isBrandOpen) {
+    openBrandPanel(false);
+  } else if (panelWasOpen) {
     lastPanelTrigger = stripesEl.querySelector(`.stripe[data-index="${openIndex}"]`);
     openPanel(openIndex, false);
   }
@@ -308,12 +354,13 @@ async function switchLanguage() {
 
 renderStripes();
 updateInterfaceLabels();
-if (location.hash.match(/^#section-\d+$/)) {
+if (location.hash === '#bio') {
+  openBrandPanel(false);
+} else if (location.hash.match(/^#section-\d+$/)) {
   history.replaceState(null, '', `${location.pathname}${location.search}`);
 }
 
 langButton.addEventListener('click', switchLanguage);
-profileOverlay.addEventListener('click', (event) => { if (event.target === profileOverlay || event.target.tagName === 'IMG') hideProfile(); });
 
 stripesEl.addEventListener('pointerdown', (event) => {
   if (event.pointerType !== 'touch') return;
@@ -367,12 +414,11 @@ langButton.addEventListener('click', switchLanguage);
 document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape') {
     if (pressLightbox.classList.contains('is-visible')) closePressLightbox();
-    else if (profileOverlay.classList.contains('is-visible')) hideProfile();
     else closePanel();
   }
   if (pressLightbox.classList.contains('is-visible') && event.key === 'ArrowLeft') movePressLightbox(-1);
   if (pressLightbox.classList.contains('is-visible') && event.key === 'ArrowRight') movePressLightbox(1);
-  const dialog = pressLightbox.classList.contains('is-visible') ? pressLightbox : body.classList.contains('panel-open') ? panel : profileOverlay.classList.contains('is-visible') ? profileOverlay : null;
+  const dialog = pressLightbox.classList.contains('is-visible') ? pressLightbox : body.classList.contains('panel-open') ? panel : null;
   if (dialog) updateFocusTrap(dialog, event);
   if (body.classList.contains('panel-open') && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) {
     const carousel = document.activeElement.closest?.('[data-carousel]');
@@ -381,6 +427,7 @@ document.addEventListener('keydown', (event) => {
 });
 
 window.addEventListener('popstate', (event) => {
-  if (event.state && Number.isInteger(event.state.panel)) openPanel(event.state.panel, false);
+  if (event.state && event.state.panel === 'brand') openBrandPanel(false);
+  else if (event.state && Number.isInteger(event.state.panel)) openPanel(event.state.panel, false);
   else closePanel(false);
 });
