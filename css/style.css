@@ -52,14 +52,15 @@ body[data-lang="en"] .lang-es{ display:none; }
   border: 0;
   display: flex;
   align-items: center;
-  gap: clamp(.45rem, 1.2vw, 1.2rem);
+  flex-wrap: wrap;
+  gap: .2rem .55rem;
   flex: 1 1 auto;
   min-width: 0;
-  max-width: calc(100% - 4.25rem);
+  max-width: calc(100% - 4.1rem);
   padding: .1rem 0;
   background: transparent;
   text-align: left;
-  font-size: clamp(.7rem, 1.8vw, 1rem);
+  font-size: clamp(.76rem, 1.8vw, 1rem);
   font-weight: 700;
   letter-spacing: .12em;
   line-height: 1.25;
@@ -78,16 +79,16 @@ body[data-lang="en"] .lang-es{ display:none; }
 .brand-name{
   margin: 0;
   font: inherit;
-  font-size: clamp(.6rem, 2.2vw, .95rem);
+  font-size: clamp(1rem, 3.5vw, 1.55rem);
   line-height: .96;
   letter-spacing: inherit;
   text-shadow: 0 0 .45rem rgba(0,240,255,1), 0 0 1.25rem rgba(0,190,255,.9), 0 0 2.4rem rgba(0,120,255,.6), 2px 3px 0 rgba(0,0,0,.95), 0 6px 11px rgba(0,0,0,.85);
 }
 
 .brand-hub{
-  font-size: clamp(.42rem, 1.35vw, .72rem);
-  letter-spacing: clamp(.05em, .1vw, .12em);
-  white-space: nowrap;
+  font-size: clamp(.68rem, 2.2vw, .9rem);
+  letter-spacing: clamp(.06em, .14vw, .12em);
+  white-space: normal;
   line-height: 1.1;
   opacity: .9;
   text-shadow: 0 0 .45rem rgba(0,240,255,1), 0 0 1.3rem rgba(0,190,255,.9), 2px 3px 0 rgba(0,0,0,.95), 0 6px 11px rgba(0,0,0,.85);
@@ -1049,9 +1050,9 @@ body.panel-open .panel-inner{
 /* ---------- Mobile ---------- */
 @media (max-width: 640px){
   .topbar{ padding: .55rem .7rem .35rem; }
-  .brand{ gap: .35rem; letter-spacing: .08em; max-width: calc(100% - 3.6rem); }
+  .brand{ gap: .2rem .45rem; letter-spacing: .08em; max-width: calc(100% - 3.7rem); }
   .brand-name{ line-height: 1.02; }
-  .brand-hub{ font-size: clamp(.46rem, 1.8vw, .62rem); letter-spacing: .06em; }
+  .brand-hub{ font-size: clamp(.62rem, 2vw, .8rem); letter-spacing: .06em; }
   .lang-toggle{ font-size: .66rem; }
   .stripes{ padding-top: clamp(5rem, 18vw, 5.7rem); }
   .stripe-label{ font-size: .99rem; left: 1.1rem; }
@@ -1067,8 +1068,8 @@ body.panel-open .panel-inner{
 @media (max-width: 420px){
   .topbar{ padding-left: .55rem; padding-right: .55rem; }
   .brand{ max-width: calc(100% - 3.2rem); }
-  .brand-name{ font-size: clamp(.5rem, 4vw, .7rem); }
-  .brand-hub{ font-size: clamp(.38rem, 2.1vw, .52rem); letter-spacing: .05em; white-space: normal; }
+  .brand-name{ font-size: clamp(.88rem, 5vw, 1.02rem); }
+  .brand-hub{ font-size: clamp(.58rem, 2.8vw, .7rem); letter-spacing: .05em; white-space: normal; }
   .lang-toggle{ font-size: .54rem; padding: .2rem .38rem; }
   .stripes{ padding-top: clamp(4.9rem, 20vw, 5.4rem); }
 }
