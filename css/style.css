@@ -130,7 +130,7 @@ body[data-lang="en"] .lang-es{ display:none; }
 .portrait{
   position: absolute;
   inset: 0;
-  background-image: url('../assets/perfil.jpg');
+  background-image: url('../assets/bg.jpg');
   background-size: cover;
   background-position: 85% 30%;
   filter: grayscale(1) contrast(1.05);
