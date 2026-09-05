@@ -1038,11 +1038,12 @@ body.panel-open .panel-inner{
 
 /* ---------- Mobile ---------- */
 @media (max-width: 640px){
-  .brand{ font-size: 1.02rem; }
-  .brand{ gap: .9rem; }
-  .brand-hub{ font-size: 1.08em; letter-spacing: .11em; }
+  .topbar{ padding: .55rem .7rem .35rem; }
+  .brand{ font-size: .78rem; gap: .45rem; letter-spacing: .08em; }
+  .brand-name{ line-height: 1.02; }
+  .brand-hub{ font-size: .92em; letter-spacing: .08em; }
   .lang-toggle{ font-size: 1.08rem; }
-  .stripes{ padding-top: 3.8rem; }
+  .stripes{ padding-top: 5.2rem; }
   .stripe-label{ font-size: .99rem; left: 1.1rem; }
   .stripe-num{ font-size: 1.02rem; right: 1.1rem; }
   .stripe:hover, .stripe:focus-visible{ flex-grow: 1.6; }
