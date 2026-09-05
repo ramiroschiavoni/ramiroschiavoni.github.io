@@ -33,70 +33,19 @@ body.panel-open{
 body[data-lang="es"] .lang-en{ display:none; }
 body[data-lang="en"] .lang-es{ display:none; }
 
-/* ---------- Topbar ---------- */
-.topbar{
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 30;
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: .6rem;
-  padding: 1.1rem 1.2rem;
-  pointer-events: none;
-}
-.topbar > *{ pointer-events: auto; }
-
-.brand{
-  appearance: none;
-  border: 0;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: .2rem .55rem;
-  flex: 1 1 auto;
-  min-width: 0;
-  max-width: calc(100% - 4.1rem);
-  padding: .1rem 0;
-  background: transparent;
-  text-align: left;
-  font-size: clamp(.76rem, 1.8vw, 1rem);
-  font-weight: 700;
+/* ---------- Brand Stripe Parts ---------- */
+.brand-name-part{
+  font-weight: 800;
   letter-spacing: .12em;
-  line-height: 1.25;
-  color: #fff;
-  text-shadow: 0 0 .5rem rgba(0,240,255,1), 0 0 1.4rem rgba(0,200,255,.85), 0 0 2.6rem rgba(0,140,255,.55), 2px 3px 0 rgba(0,0,0,.95), 0 6px 11px rgba(0,0,0,.85);
-  cursor: pointer;
-  user-select: none;
-  -webkit-user-select: none;
-  -webkit-touch-callout: none;
-  touch-action: none;
 }
-
-.brand-name,
-.brand-hub{ display: block; }
-
-.brand-name{
-  margin: 0;
-  font: inherit;
-  font-size: clamp(1rem, 3.5vw, 1.55rem);
-  line-height: .96;
-  letter-spacing: inherit;
-  text-shadow: 0 0 .45rem rgba(0,240,255,1), 0 0 1.25rem rgba(0,190,255,.9), 0 0 2.4rem rgba(0,120,255,.6), 2px 3px 0 rgba(0,0,0,.95), 0 6px 11px rgba(0,0,0,.85);
+.brand-sep{
+  opacity: .5;
+  margin: 0 .2em;
 }
-
-.brand-hub{
-  font-size: clamp(.68rem, 2.2vw, .9rem);
-  letter-spacing: clamp(.06em, .14vw, .12em);
-  white-space: normal;
-  line-height: 1.1;
-  opacity: .9;
-  text-shadow: 0 0 .45rem rgba(0,240,255,1), 0 0 1.3rem rgba(0,190,255,.9), 2px 3px 0 rgba(0,0,0,.95), 0 6px 11px rgba(0,0,0,.85);
-}
-
-.brand:focus-visible{
-  outline: 1px solid currentColor;
-  outline-offset: .35rem;
+.brand-hub-part{
+  font-weight: 600;
+  opacity: .85;
+  letter-spacing: .1em;
 }
 
 .profile-overlay{
@@ -152,8 +101,8 @@ body[data-lang="en"] .lang-es{ display:none; }
   color: var(--fg);
   mix-blend-mode: difference;
   border-radius: 999px;
-  padding: clamp(.25rem, .8vw, .45rem) clamp(.55rem, 1.3vw, .9rem);
-  font-size: clamp(.56rem, 1.3vw, .76rem);
+  padding: clamp(.35rem, 1.1vw, .6rem) clamp(.75rem, 1.8vw, 1.2rem);
+  font-size: clamp(.78rem, 1.8vw, 1rem);
   font-weight: 700;
   letter-spacing: .08em;
   cursor: pointer;
@@ -161,6 +110,14 @@ body[data-lang="en"] .lang-es{ display:none; }
   flex-shrink: 0;
   margin-left: auto;
 }
+
+.floating-lang{
+  position: fixed;
+  top: .9rem;
+  right: .9rem;
+  z-index: 40;
+}
+
 .lang-toggle:active{ transform: scale(.9); }
 
 /* ---------- Stage / portrait ---------- */
@@ -193,7 +150,7 @@ body.panel-open .portrait{
   display: flex;
   touch-action: none;
   flex-direction: column;
-  padding-top: clamp(4.3rem, 10vw, 5rem);
+  padding-top: 0;
   z-index: 10;
 }
 
@@ -1049,29 +1006,22 @@ body.panel-open .panel-inner{
 
 /* ---------- Mobile ---------- */
 @media (max-width: 640px){
-  .topbar{ padding: .55rem .7rem .35rem; }
-  .brand{ gap: .2rem .45rem; letter-spacing: .08em; max-width: calc(100% - 3.7rem); }
-  .brand-name{ line-height: 1.02; }
-  .brand-hub{ font-size: clamp(.62rem, 2vw, .8rem); letter-spacing: .06em; }
-  .lang-toggle{ font-size: .66rem; }
-  .stripes{ padding-top: clamp(5rem, 18vw, 5.7rem); }
-  .stripe-label{ font-size: .99rem; left: 1.1rem; }
-  .stripe-num{ font-size: 1.02rem; right: 1.1rem; }
+  .lang-toggle{ font-size: .8rem; padding: .32rem .68rem; }
+  .stripe-label{ font-size: .82rem; left: 1rem; }
+  .stripe-num{ font-size: .85rem; right: 1rem; }
   .stripe:hover, .stripe:focus-visible{ flex-grow: 1.6; }
   .panel-inner{ padding: 1.3rem .4rem; }
-  body.panel-open .panel-inner{ padding-top: 5.2rem; }
+  body.panel-open .panel-inner{ padding-top: 4.2rem; }
   .social-orbit{ gap: .3rem; }
   .bio-heading{ align-items: flex-start; gap: .6rem; }
   .bio-pdf-link{ width: 4.7rem; height: 2.9rem; }
 }
 
 @media (max-width: 420px){
-  .topbar{ padding-left: .55rem; padding-right: .55rem; }
-  .brand{ max-width: calc(100% - 3.2rem); }
-  .brand-name{ font-size: clamp(.88rem, 5vw, 1.02rem); }
-  .brand-hub{ font-size: clamp(.58rem, 2.8vw, .7rem); letter-spacing: .05em; white-space: normal; }
-  .lang-toggle{ font-size: .54rem; padding: .2rem .38rem; }
-  .stripes{ padding-top: clamp(4.9rem, 20vw, 5.4rem); }
+  .lang-toggle{ font-size: .75rem; padding: .28rem .58rem; }
+  .stripe-label{ font-size: .75rem; left: .8rem; }
+  .stripe-num{ font-size: .78rem; right: .8rem; }
+  .brand-hub-part{ font-size: .82em; }
 }
 
 @media (max-height: 480px) and (orientation: landscape){

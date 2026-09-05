@@ -11,7 +11,6 @@ const panelIndex = panel.querySelector('.panel-index');
 const closePanelButton = document.getElementById('closePanel');
 const scrollTopButton = document.getElementById('scrollTopBtn');
 const langButton = document.getElementById('langToggle');
-const profileTrigger = document.getElementById('profileTrigger');
 const profileOverlay = document.getElementById('profileOverlay');
 const profileOverlayTitle = document.getElementById('profileOverlayTitle');
 const profileImage = profileOverlay.querySelector('img');
@@ -58,6 +57,45 @@ function normalizeContent(html) {
 function renderStripes() {
   stripesEl.replaceChildren();
   const fragment = document.createDocumentFragment();
+
+  // Brand Card (no number)
+  const brandButton = document.createElement('button');
+  brandButton.className = 'stripe stripe-brand';
+  brandButton.id = 'profileTrigger';
+  brandButton.style.setProperty('--h', '270');
+  brandButton.style.setProperty('--s', '65%');
+  brandButton.style.setProperty('--l', '18%');
+
+  const brandAriaLabel = currentLanguage === 'en'
+    ? 'Ramiro Schiavoni | Artistic Hub - Show profile photo'
+    : 'Ramiro Schiavoni | Hub Artístico - Mostrar foto de perfil';
+  brandButton.setAttribute('aria-label', brandAriaLabel);
+
+  const brandLabel = document.createElement('span');
+  brandLabel.className = 'stripe-label brand-stripe-label';
+  brandLabel.innerHTML = currentLanguage === 'en'
+    ? '<span class="brand-name-part">RAMIRO SCHIAVONI</span><span class="brand-sep"> | </span><span class="brand-hub-part">ARTISTIC HUB</span>'
+    : '<span class="brand-name-part">RAMIRO SCHIAVONI</span><span class="brand-sep"> | </span><span class="brand-hub-part">HUB ARTÍSTICO</span>';
+
+  brandButton.append(brandLabel);
+
+  brandButton.addEventListener('pointerdown', (event) => {
+    event.preventDefault();
+    brandButton.setPointerCapture(event.pointerId);
+    showProfile();
+  });
+  brandButton.addEventListener('keydown', (event) => {
+    if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); showProfile(); }
+  });
+  brandButton.addEventListener('keyup', (event) => {
+    if (event.key === ' ' || event.key === 'Enter') hideProfile();
+  });
+  ['pointerup', 'pointercancel', 'lostpointercapture'].forEach((name) => brandButton.addEventListener(name, hideProfile));
+  brandButton.addEventListener('contextmenu', (event) => event.preventDefault());
+
+  fragment.appendChild(brandButton);
+
+  // Content section cards (01 to 12)
   sections.forEach((section, index) => {
     const button = document.createElement('button');
     button.className = 'stripe';
@@ -121,7 +159,7 @@ function hideProfile() {
   profileOverlay.classList.remove('is-visible');
   profileOverlay.setAttribute('aria-hidden', 'true');
   backgroundElements.forEach((element) => element?.removeAttribute('inert'));
-  profileTrigger.focus({ preventScroll: true });
+  document.getElementById('profileTrigger')?.focus({ preventScroll: true });
 }
 
 function openPanel(index, updateHistory = true) {
@@ -134,7 +172,7 @@ function openPanel(index, updateHistory = true) {
   root.style.setProperty('--active-h', section.h);
   root.style.setProperty('--active-s', section.s);
   root.style.setProperty('--active-l', section.l);
-  panelIndex.textContent = `${String(index + 1).padStart(2, '0')} / ${String(sections.length).padStart(2, '0')}`;
+  panelIndex.textContent = `${String(index + 1).padStart(2, '0')} / ${sections.length}`;
   panelTitle.textContent = section.title;
   panelText.innerHTML = normalizeContent(section.text);
   panel.setAttribute('aria-hidden', 'false');
@@ -216,7 +254,6 @@ function updateCarouselAccessibility() {
 
 function updateInterfaceLabels() {
   const labels = currentLanguage === 'en' ? {
-    profile: 'Show profile photo of Ramiro Schiavoni or Artistic Hub',
     language: 'Change language',
     close: 'Close',
     scrollTop: 'Back to top',
@@ -225,7 +262,6 @@ function updateInterfaceLabels() {
     download: 'Download',
     profileTitle: 'Profile photo of Ramiro Schiavoni'
   } : {
-    profile: 'Mostrar foto de perfil de Ramiro Schiavoni o Hub Artístico',
     language: 'Cambiar idioma',
     close: 'Cerrar',
     scrollTop: 'Volver arriba',
@@ -234,7 +270,12 @@ function updateInterfaceLabels() {
     download: 'Descargar',
     profileTitle: 'Foto de perfil de Ramiro Schiavoni'
   };
-  profileTrigger.setAttribute('aria-label', labels.profile);
+  const pTrigger = document.getElementById('profileTrigger');
+  if (pTrigger) {
+    pTrigger.setAttribute('aria-label', currentLanguage === 'en'
+      ? 'Ramiro Schiavoni | Artistic Hub - Show profile photo'
+      : 'Ramiro Schiavoni | Hub Artístico - Mostrar foto de perfil');
+  }
   langButton.setAttribute('aria-label', labels.language);
   closePanelButton.setAttribute('aria-label', labels.close);
   scrollTopButton.setAttribute('aria-label', labels.scrollTop);
@@ -271,18 +312,8 @@ if (location.hash.match(/^#section-\d+$/)) {
   history.replaceState(null, '', `${location.pathname}${location.search}`);
 }
 
-profileTrigger.addEventListener('pointerdown', (event) => {
-  event.preventDefault();
-  profileTrigger.setPointerCapture(event.pointerId);
-  showProfile();
-});
-profileTrigger.addEventListener('keydown', (event) => {
-  if (event.key === ' ' || event.key === 'Enter') { event.preventDefault(); showProfile(); }
-});
-profileTrigger.addEventListener('keyup', (event) => { if (event.key === ' ' || event.key === 'Enter') hideProfile(); });
-['pointerup', 'pointercancel', 'lostpointercapture'].forEach((name) => profileTrigger.addEventListener(name, hideProfile));
-profileTrigger.addEventListener('contextmenu', (event) => event.preventDefault());
-profileOverlay.addEventListener('click', (event) => { if (event.target === profileOverlay) hideProfile(); });
+langButton.addEventListener('click', switchLanguage);
+profileOverlay.addEventListener('click', (event) => { if (event.target === profileOverlay || event.target.tagName === 'IMG') hideProfile(); });
 
 stripesEl.addEventListener('pointerdown', (event) => {
   if (event.pointerType !== 'touch') return;
