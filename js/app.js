@@ -238,7 +238,8 @@ function closePanel(fromHistory = true) {
   if (fromHistory && panelHistoryState) {
     panelHistoryState = false;
     history.back();
-  } else if (location.hash.match(/^#section-\d+$/)) {
+  }
+  if (location.hash) {
     history.replaceState(null, '', `${location.pathname}${location.search}`);
   }
 }
@@ -354,9 +355,7 @@ async function switchLanguage() {
 
 renderStripes();
 updateInterfaceLabels();
-if (location.hash === '#bio') {
-  openBrandPanel(false);
-} else if (location.hash.match(/^#section-\d+$/)) {
+if (location.hash) {
   history.replaceState(null, '', `${location.pathname}${location.search}`);
 }
 
