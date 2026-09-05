@@ -96,19 +96,22 @@ body[data-lang="en"] .lang-es{ display:none; }
 
 .lang-toggle{
   appearance: none;
-  border: 1px solid currentColor;
-  background: transparent;
-  color: var(--fg);
-  mix-blend-mode: difference;
+  border: 1px solid #ffffff;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  color: #ffffff;
   border-radius: 999px;
   padding: clamp(.35rem, 1.1vw, .6rem) clamp(.75rem, 1.8vw, 1.2rem);
   font-size: clamp(.78rem, 1.8vw, 1rem);
   font-weight: 700;
   letter-spacing: .08em;
   cursor: pointer;
-  transition: transform .25s var(--ease);
+  transition: transform .25s var(--ease), background-color .25s var(--ease);
   flex-shrink: 0;
   margin-left: auto;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .floating-lang{
