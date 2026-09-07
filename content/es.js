@@ -1293,7 +1293,7 @@
           </div>
         </section>
         <section class="writer-book">
-          <h4>Poesía sin vergüenza <span class="li-year">2011-2015</span></h4>
+          <div class="writer-book-heading"><h4>Poesía sin vergüenza <span class="li-year">2011-2015</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Comprar</span></div>
           <p class="writer-book-count">(102 poemas)</p>
           <p class="writer-book-subtitle">Selección</p>
           <div class="piece-acc-list">
@@ -1305,7 +1305,7 @@
           </div>
         </section>
         <section class="writer-book">
-          <h4>Poemas escondidos <span class="li-year">2015-2017</span></h4>
+          <div class="writer-book-heading"><h4>Poemas escondidos <span class="li-year">2015-2017</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Comprar</span></div>
           <p class="writer-book-count">(133 poemas)</p>
           <p class="writer-book-subtitle">Selección</p>
           <div class="piece-acc-list">
@@ -1317,7 +1317,7 @@
           </div>
         </section>
         <section class="writer-book">
-          <h4>Estamos de cuento <span class="li-year">2019</span></h4>
+          <div class="writer-book-heading"><h4>Estamos de cuento <span class="li-year">2019</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Comprar</span></div>
           <p class="writer-book-count">(52 cuentos)</p>
           <p class="writer-book-subtitle">Selección</p>
           <div class="piece-acc-list">

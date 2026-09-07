@@ -809,8 +809,8 @@ body.panel-open .panel-inner{
 .panel-text .writer-book h4{
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
-  gap: .75em;
+  justify-content: flex-start;
+  gap: .35em;
   margin: 0;
   min-width: 0;
   flex: 1;
@@ -837,8 +837,13 @@ body.panel-open .panel-inner{
   outline: 1px solid #fff;
   outline-offset: 3px;
 }
+.panel-text .writer-buy-link.is-disabled{
+  cursor: not-allowed;
+  opacity: .5;
+}
 .panel-text .writer-book h4 .li-year{
   flex-shrink: 0;
+  margin-left: .35em;
   font-size: .75em;
   font-weight: 400;
   opacity: .7;

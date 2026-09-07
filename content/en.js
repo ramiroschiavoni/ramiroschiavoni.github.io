@@ -1293,7 +1293,7 @@
           </div>
         </section>
         <section class="writer-book">
-          <h4>Poesía sin vergüenza <span class="li-year">2011-2015</span></h4>
+          <div class="writer-book-heading"><h4>Poesía sin vergüenza <span class="li-year">2011-2015</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Buy</span></div>
           <p class="writer-book-count">(102 poems)</p><p class="writer-book-subtitle">Selection</p>
           <div class="piece-acc-list">
             <details class="piece-acc"><summary>Heart 1</summary><div class="piece-detail"><p>Who does not want to see you,<br>heart,<br>sunk in the hunger that heartbreak grants?<br>Who does not want to love you,<br>heart,<br>steeped in the pain that solitude spills?<br>Who does not want to cherish you,<br>heart,<br>with the weight of humanity that death teaches?</p></div></details>
@@ -1304,7 +1304,7 @@
           </div>
         </section>
         <section class="writer-book">
-          <h4>Poemas escondidos <span class="li-year">2015-2017</span></h4>
+          <div class="writer-book-heading"><h4>Poemas escondidos <span class="li-year">2015-2017</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Buy</span></div>
           <p class="writer-book-count">(133 poems)</p><p class="writer-book-subtitle">Selection</p>
           <div class="piece-acc-list">
             <details class="piece-acc"><summary>I Need to Know</summary><div class="piece-detail"><p>I need to know<br>if your eyes will avoid me<br>or seek me out,<br>if your arms will shelter me<br>or push me away,<br>if your judgment will condemn me<br>or accept me.<br>I truly need to know<br>if your mouth will close<br>or kiss me,<br>if your body will desire me<br>or reject me,<br>if your will shall conquer me<br>or forget me,<br>my love,<br>I need to know<br>whether I must stop the train of my happiness,<br>for it will never arrive at your destination,<br>whether I must stop trying to climb the wall<br>that separates your innocence from my sin,<br>because you will not be on the other side waiting for me,<br>whether I must, once and for all, forget myself<br>and stop trying to seduce you.<br>I truly need to know,<br>my love,<br>whether you are going to love me.</p></div></details>
@@ -1315,7 +1315,7 @@
           </div>
         </section>
         <section class="writer-book">
-          <h4>Estamos de cuento <span class="li-year">2019</span></h4>
+          <div class="writer-book-heading"><h4>Estamos de cuento <span class="li-year">2019</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Buy</span></div>
           <p class="writer-book-count">(52 stories)</p><p class="writer-book-subtitle">Selection</p>
           <div class="piece-acc-list">
             <details class="piece-acc"><summary>A Degree Is Nothing</summary><div class="piece-detail"><p>When I finally manage to pass the last exam of my degree in Communication Sciences at the Universidad de la República, after strikes, lack of professors, open exams, several special exam boards, and an absolute conviction that I had no vocation whatsoever for that career, I complete all the paperwork to obtain my long-awaited degree, and I am told that in a month I could come by to pick it up.</p><p>A month later, I invite a friend, whom I force into being my event photographer, to come with me to collect it, and I even believe I put on new clothes just in case, so that the dean of the faculty wouldn't think I was unworthy of being called a graduate. And off we go, Javier, the camera, my outfit, and I, headed to the faculty.</p><p>I approach the registrar's office, that section of a faculty where the reign of the staff is unquestionable, and earning their attention is considered a privilege among students, and I say that I have come to collect my degree. I am attended by a short, young, very friendly guy, who asks me to fill out a form. I have barely finished it when I take the opportunity his friendliness offered me to ask him when the official degree-awarding ceremony at the faculty would be, thinking that such an important event surely deserved special procedures as well. And right then, on the fly, faster than a bullet, cooler than a head of lettuce, and practically throwing a used yellow manila envelope at my head, he answers me:</p><p>"Here, here's your degree, this is the awarding ceremony. Look at the party we're throwing now!"</p></div></details>
