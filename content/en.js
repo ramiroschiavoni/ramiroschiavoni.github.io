@@ -400,8 +400,8 @@
         <h3>Piano compositions (5)</h3>
 
         <div class="piece-acc-list">
-        <details class="piece-acc">
-          <summary>Minimalist Preludes of Heartbroken Loves <span class="li-year">2017</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=PLfzSWIJVDJM_sye3hPv0XObS33obdznJr&amp;si=ZtkPg8F_JagdA7S7" target="_blank" rel="noopener" aria-label="Open Minimalist Preludes of Heartbroken Loves playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Minimalist Preludes of Heartbroken Loves <span class="li-year">2017</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Distant Memories</span></div>
@@ -421,8 +421,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>To the Artists <span class="li-year">2021</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=PLRhcPiTt0aMI&amp;si=P27H-Tbp3dvb2ZeX" target="_blank" rel="noopener" aria-label="Open To the Artists playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>To the Artists <span class="li-year">2021</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>When Lili Paints</span></div>
@@ -431,8 +431,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Unconditional <span class="li-year">2021</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=PLfzSWIJVDJM-idtO8rctXFlwgMF-xfJq8&amp;si=flHd959BTb19p-MD" target="_blank" rel="noopener" aria-label="Open Unconditional playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Unconditional <span class="li-year">2021</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Unconditional</span></div>
@@ -448,8 +448,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>A Walk in the Clouds <span class="li-year">2021</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=PLfzSWIJVDJM9GsWFzQoNiXIMbBrLSka5v&amp;si=AEqELDgRAVVQZeqo" target="_blank" rel="noopener" aria-label="Open A Walk in the Clouds playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>A Walk in the Clouds <span class="li-year">2021</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Recitative for Love</span></div>
@@ -465,8 +465,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Solo <span class="li-year">2021</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=PLfzSWIJVDJM_7N4sFApbPWmw4EJbTWRk7&amp;si=zwRPiVi6UVIJ98f6" target="_blank" rel="noopener" aria-label="Open Solo playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Solo <span class="li-year">2021</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Soliloquy</span></div>

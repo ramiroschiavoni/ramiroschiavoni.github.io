@@ -891,6 +891,40 @@ body.panel-open .panel-inner{
   line-height: 1.55;
   opacity: .85;
 }
+.panel-text .piece-acc-list > details.piece-acc.has-playlist summary{
+  padding-left: 3.65em;
+}
+.panel-text .piece-acc-list > details.piece-acc.has-playlist summary::before{
+  position: absolute;
+  left: 1.95em;
+}
+.panel-text .album-playlist-link{
+  position: absolute;
+  z-index: 1;
+  top: .605em;
+  left: .15em;
+  display: grid;
+  width: 1.5em;
+  height: 1.5em;
+  place-items: center;
+  color: #fff;
+  opacity: .75;
+  transition: color .2s ease, opacity .2s ease;
+}
+.panel-text .album-playlist-link svg{
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+.panel-text .album-playlist-link:hover,
+.panel-text .album-playlist-link:focus-visible{
+  color: #ff4b4b;
+  opacity: 1;
+}
+.panel-text .album-playlist-link:focus-visible{
+  outline: 1px solid currentColor;
+  outline-offset: 3px;
+}
 
 .piece-detail .track-list{ margin: .2em 0 0; }
 .piece-detail .track-item{
