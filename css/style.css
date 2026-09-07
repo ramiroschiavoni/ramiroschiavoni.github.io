@@ -772,6 +772,45 @@ body.panel-open .panel-inner{
 }
 
 .panel-text .piece-acc-list{ counter-reset: pc; margin: .3em 0 1.4em; }
+.panel-text .writer-book{
+  margin: 1.25em 0 1.6em;
+}
+.panel-text .writer-book h4{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .75em;
+  margin: 0;
+}
+.panel-text .writer-book h4 .li-year{
+  flex-shrink: 0;
+  font-size: .75em;
+  font-weight: 400;
+  opacity: .7;
+}
+.panel-text .writer-book-count{
+  margin: .15em 0 0;
+  font-size: .88em;
+  opacity: .75;
+}
+.panel-text .writer-book-subtitle{
+  margin: .4em 0 .25em;
+  font-size: .72em;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  opacity: .65;
+}
+.panel-text .writer-book .piece-acc-list{
+  margin-bottom: 0;
+}
+.panel-text .writer-book .piece-acc-list > details.piece-acc summary{
+  padding-left: 0;
+}
+.panel-text .writer-book .piece-acc-list > details.piece-acc summary::before{
+  content: none;
+  display: none;
+}
 .panel-text .footnote{
   margin: -1em 0 1.4em;
   font-size: .82em;
