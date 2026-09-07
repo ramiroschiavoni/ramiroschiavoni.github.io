@@ -193,12 +193,12 @@
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Previous publication">&#8249;</button>
             <div class="publication-slides">
-              <a class="publication-slide is-active" href="https://ko-fi.com/s/3b2bd8f660" target="_blank" rel="noopener"><img src="assets/kofi/1_pianofacil1.jpg" alt="Cover of Piano Fácil"></a>
-              <a class="publication-slide" href="https://ko-fi.com/s/ec470cfde7" target="_blank" rel="noopener"><img src="assets/kofi/2_easypiano1.jpg" alt="Cover of Easy Piano"></a>
-              <a class="publication-slide" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener"><img src="assets/kofi/3_tecnica.jpg" alt="Cover of piano technique"></a>
-              <a class="publication-slide" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener"><img src="assets/kofi/4_opera_Lam.jpg" alt="Cover of the opera Lam"></a>
-              <a class="publication-slide" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener"><img src="assets/kofi/5_aaron.jpg" alt="Cover of Aaron"></a>
-              <a class="publication-slide" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener"><img src="assets/kofi/6_poemas_nube.jpg" alt="Cover of Poemas desde una nube"></a>
+              <div class="publication-slide is-active"><img src="assets/kofi/1_pianofacil1.jpg" alt="Cover of Piano Fácil"><a class="publication-buy-link" href="https://ko-fi.com/s/3b2bd8f660" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/2_easypiano1.jpg" alt="Cover of Easy Piano"><a class="publication-buy-link" href="https://ko-fi.com/s/ec470cfde7" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/3_tecnica.jpg" alt="Cover of piano technique"><a class="publication-buy-link" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/4_opera_Lam.jpg" alt="Cover of the opera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/5_aaron.jpg" alt="Cover of Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/6_poemas_nube.jpg" alt="Cover of Poemas desde una nube"><a class="publication-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Buy</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Next publication">&#8250;</button>
           </div>
@@ -304,8 +304,8 @@
         <h3>Classics (6)</h3>
 
         <div class="piece-acc-list">
-        <details class="piece-acc">
-          <summary>Works for Piano, Vol. 1 <span class="li-year">2003</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_vrWJLzOgipeWcUr1CErFJ" target="_blank" rel="noopener" aria-label="Open Works for Piano, Vol. 1 playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Works for Piano, Vol. 1 <span class="li-year">2003</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Fantasy in C Major, HWV 490 - Georg Friedrich Händel</span></div>
@@ -326,8 +326,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Works for Piano, Vol. 2 <span class="li-year">2003</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-DzJa-_oQYUGjLkEMqV14p" target="_blank" rel="noopener" aria-label="Open Works for Piano, Vol. 2 playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Works for Piano, Vol. 2 <span class="li-year">2003</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="work-title">Prelude and Fugue in C Major, BWV 846, The Well-Tempered Clavier, Book I - Johann Sebastian Bach</div>
@@ -358,16 +358,16 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Hymn to the Virgin of the Thirty-Three <span class="li-year">2021</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtu.be/LZqBiPqNiT4" target="_blank" rel="noopener" aria-label="Open Hymn to the Virgin of the Thirty-Three on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Hymn to the Virgin of the Thirty-Three <span class="li-year">2021</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Hymn to the Virgin of the Thirty-Three - Gerardo Grasso</span></div>
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>National Anthem of Uruguay <span class="li-year">2025</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=OLAK5uy_kowyALVOl14_HmyHarn6errv63lemsvlw&amp;si=3UZF6VOp6h9ql_vE" target="_blank" rel="noopener" aria-label="Open National Anthem of Uruguay playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>National Anthem of Uruguay <span class="li-year">2025</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="work-title">National Anthem of Uruguay - Francisco Acuña de Figueroa</div>
@@ -376,8 +376,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Marches: Mi Bandera and Pabellones del Uruguay <span class="li-year">2026</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtu.be/0Od6VyllA6E" target="_blank" rel="noopener" aria-label="Open Marches: Mi Bandera and Pabellones del Uruguay on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Marches: Mi Bandera and Pabellones del Uruguay <span class="li-year">2026</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>March of Pabellones - José Ramón Usera</span></div>
@@ -387,8 +387,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>National Pericon of Uruguay <span class="li-year">2026</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtu.be/L88wfSv-Kpk" target="_blank" rel="noopener" aria-label="Open National Pericon of Uruguay on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>National Pericon of Uruguay <span class="li-year">2026</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>National Pericon - Gerardo Grasso</span></div>
@@ -487,8 +487,8 @@
         <h3>Voice and Piano compositions (5)</h3>
 
         <div class="piece-acc-list">
-        <details class="piece-acc">
-          <summary>It Is Winter <span class="li-year">2017</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtu.be/4dyQOe8R_HE" target="_blank" rel="noopener" aria-label="Open It Is Winter on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>It Is Winter <span class="li-year">2017</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Liz Mautone, mezzo-soprano<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -496,8 +496,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Song to Montevideo <span class="li-year">2018</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtu.be/kTEQIm9hSwA" target="_blank" rel="noopener" aria-label="Open Song to Montevideo on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Song to Montevideo <span class="li-year">2018</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Liz Mautone, mezzo-soprano<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -505,8 +505,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Without a Love <span class="li-year">2020</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtu.be/LJbKBK3Fqig" target="_blank" rel="noopener" aria-label="Open Without a Love on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Without a Love <span class="li-year">2020</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Juan Pablo Volpe, tenor<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -514,8 +514,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Opera "Mi Mejor Recuerdo" <span class="li-year">2019</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9vEyAcENaUOtflC9Ls8aRN" target="_blank" rel="noopener" aria-label="Open Opera Mi Mejor Recuerdo playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Opera "Mi Mejor Recuerdo" <span class="li-year">2019</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Liz Mautone, mezzo-soprano<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -532,8 +532,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Your Song to Me <span class="li-year">2020</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtu.be/f0fbfk80-sk" target="_blank" rel="noopener" aria-label="Open Your Song to Me on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Your Song to Me <span class="li-year">2020</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Ernesto Recayte, baritone<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -546,24 +546,24 @@
         <h3>Studies (9)</h3>
 
         <div class="piece-acc-list">
-        <div class="piece-acc-static">200 Little Canons in 2 Voices, Op. 14 <span class="li-year">2003</span><span class="static-sub">Konrad Max Kunz</span></div>
-        <div class="piece-acc-static">Preparatory Piano School, Op. 101 <span class="li-year">2003</span><span class="static-sub">Ferdinand Beyer</span></div>
-        <div class="piece-acc-static">Elementary School for the Young Pianist <span class="li-year">2003</span><span class="static-sub">Friedrich Burgmüller</span></div>
-        <div class="piece-acc-static">Elementary and Progressive Piano Method <span class="li-year">2004</span><span class="static-sub">Adolphe-Claire Le Carpentier</span></div>
-        <div class="piece-acc-static">25 Easy and Progressive Studies, Op. 100 <span class="li-year">2004</span><span class="static-sub">Friedrich Burgmüller</span></div>
-        <div class="piece-acc-static">50 Children's Studies, Op. 37 <span class="li-year">2005</span><span class="static-sub">Henry Lemoine</span></div>
-        <div class="piece-acc-static">The First Piano Teacher, Op. 599 <span class="li-year">2005</span><span class="static-sub">Carl Czerny</span></div>
-        <div class="piece-acc-static">Piano Technique - Level 1 <span class="li-year">2008</span></div>
-        <div class="piece-acc-static">24 Studies in Expression and Rhythm, Op. 125 <span class="li-year">2021</span><span class="static-sub">Stephen Heller</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9LMMtEILJmR3W5nzGh9uBL" target="_blank" rel="noopener" aria-label="Open 200 Little Canons in 2 Voices playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>200 Little Canons in 2 Voices, Op. 14 <span class="li-year">2003</span><span class="static-sub">Konrad Max Kunz</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_LbHUA3kScI7kt6jT5Y0CF" target="_blank" rel="noopener" aria-label="Open Preparatory Piano School playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Preparatory Piano School, Op. 101 <span class="li-year">2003</span><span class="static-sub">Ferdinand Beyer</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9W15aePP0UmoAituNZSwkt" target="_blank" rel="noopener" aria-label="Open Elementary School for the Young Pianist playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Elementary School for the Young Pianist, Op. 199 <span class="li-year">2003</span><span class="static-sub">Friedrich Burgmüller</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9JzUT0uMlGBKW-9QMD9WSb" target="_blank" rel="noopener" aria-label="Open Elementary and Progressive Piano Method playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Elementary and Progressive Piano Method <span class="li-year">2004</span><span class="static-sub">Adolphe-Claire Le Carpentier</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_5s15sytacI3zsaWvnvtA4" target="_blank" rel="noopener" aria-label="Open 25 Easy and Progressive Studies playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>25 Easy and Progressive Studies, Op. 100 <span class="li-year">2004</span><span class="static-sub">Friedrich Burgmüller</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9rvA0H1e4vOOTNDOviWi5m" target="_blank" rel="noopener" aria-label="Open 50 Children's Studies playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>50 Children's Studies, Op. 37 <span class="li-year">2005</span><span class="static-sub">Henry Lemoine</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9WvQ6Q7r4tQYToBzBmTHpI" target="_blank" rel="noopener" aria-label="Open The First Piano Teacher playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>The First Piano Teacher, Op. 599 <span class="li-year">2005</span><span class="static-sub">Carl Czerny</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_g2ohGAHPVVarmZjiCCt84" target="_blank" rel="noopener" aria-label="Open Piano Technique - Level 1 playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>Piano Technique - Level 1 <span class="li-year">2008</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-7jZosoFCzpRg9JtVDddof" target="_blank" rel="noopener" aria-label="Open 24 Studies in Expression and Rhythm playlist on YouTube"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23 12s0-3.6-.5-5.3c-.3-1-.9-1.7-1.9-2C18.9 4 12 4 12 4s-6.9 0-8.6.7c-1 .3-1.6 1-1.9 2C1 8.4 1 12 1 12s0 3.6.5 5.3c.3 1 .9 1.7 1.9 2C5.1 20 12 20 12 20s6.9 0 8.6-.7c1-.3 1.6-1 1.9-2C23 15.6 23 12 23 12ZM9.8 15.5V8.5l6 3.5-6 3.5Z"/></svg></a>24 Studies in Expression and Rhythm, Op. 125 <span class="li-year">2021</span><span class="static-sub">Stephen Heller</span></div>
         </div>
 
-        <h3>Small Pieces (22)</h3>
+        <h3>Short Pieces (22)</h3>
 
         <div class="piece-acc-list">
-        <div class="piece-acc-static">The Child's First Music Book <span class="li-year">2003</span><span class="static-sub">John Williams</span></div>
-        <div class="piece-acc-static">Piano Method - Volume I <span class="li-year">2003</span><span class="static-sub">Violeta Hemsy</span></div>
-        <details class="piece-acc">
-          <summary>Selection of Pieces - Volume 1 <span class="li-year">2004</span></summary>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9XcDBbcPm5O9ZyBCTo5TFp" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>The Child's First Music Book <span class="li-year">2003</span><span class="static-sub">John Williams</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-BXabtphk6dsSTvgs-6jkk" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Piano Method - Volume I <span class="li-year">2003</span><span class="static-sub">Violeta Hemsy</span></div>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM8HOml6NoQMLUgWHh1XqM89" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Selection of Pieces - Volume 1 <span class="li-year">2004</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>In May - Franz Behr</span></div>
@@ -589,25 +589,25 @@
             </div>
           </div>
         </details>
-        <div class="piece-acc-static">My First Bach <span class="li-year">2004</span><span class="static-sub">Johann Sebastian Bach</span><span class="static-sub">Ricordi Editions.</span></div>
-        <div class="piece-acc-static">23 Easy Pieces <span class="li-year">2004</span><span class="static-sub">Johann Sebastian Bach</span><span class="static-sub">Ricordi Editions.</span></div>
-        <div class="piece-acc-static">The Young Mozart <span class="li-year">2004</span><span class="static-sub">Wolfgang Amadeus Mozart</span><span class="static-sub">Schott Editions.</span></div>
-        <div class="piece-acc-static">27 Little Preludes and Fugues <span class="li-year">2006</span><span class="static-sub">Johann Sebastian Bach</span><span class="static-sub">Ricordi Editions.</span></div>
-        <div class="piece-acc-static">Piano Course - Grade 1 <span class="li-year">2006</span><span class="static-sub">Michael Aaron</span></div>
-        <div class="piece-acc-static">Piano Course - Grade 2 <span class="li-year">2006</span><span class="static-sub">Michael Aaron</span></div>
-        <div class="piece-acc-static">Piano Course - Grade 3 <span class="li-year">2006</span><span class="static-sub">Michael Aaron</span></div>
-        <div class="piece-acc-static">Cecilia's First Album <span class="li-year">2006</span><span class="static-sub">Luz de Aurora</span></div>
-        <div class="piece-acc-static">The First Steps of the Argentine Pianist <span class="li-year">2006</span><span class="static-sub">Rita Kurzmann</span></div>
-        <div class="piece-acc-static">Basic Piano - Level 1 <span class="li-year">2006</span><span class="static-sub">James Bastien</span></div>
-        <div class="piece-acc-static">Basic Piano - Level 2 <span class="li-year">2006</span><span class="static-sub">James Bastien</span></div>
-        <div class="piece-acc-static">Little Fingers on the Keyboard <span class="li-year">2007</span><span class="static-sub">Rita Kappenberg</span></div>
-        <div class="piece-acc-static">Easy Piano Collection - Richard Clayderman <span class="li-year">2008</span><span class="static-sub">Richard Clayderman</span><span class="static-sub">Hal Leonard Editions.</span></div>
-        <div class="piece-acc-static">First Album for Children, Op. 210 <span class="li-year">2009</span><span class="static-sub">Louis Köhler</span></div>
-        <div class="piece-acc-static">Second Album for Children, Op. 246 <span class="li-year">2009</span><span class="static-sub">Louis Köhler</span></div>
-        <div class="piece-acc-static">Mikrokosmos - Volume 1 <span class="li-year">2009</span><span class="static-sub">Béla Bartók</span></div>
-        <div class="piece-acc-static">Modern Course for the Piano - First Grade Book - Part 1 <span class="li-year">2009</span><span class="static-sub">John Thompson</span></div>
-        <details class="piece-acc">
-          <summary>Selection of Pieces - Volume 2 <span class="li-year">2017</span></summary>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-cz284m1p7JVBsCGu6uyGE" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>My First Bach <span class="li-year">2004</span><span class="static-sub">Johann Sebastian Bach</span><span class="static-sub">Ricordi Editions.</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-yI12t9vJ56BIjQFsBY1XZ" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>23 Easy Pieces <span class="li-year">2004</span><span class="static-sub">Johann Sebastian Bach</span><span class="static-sub">Ricordi Editions.</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-E9C3fS4BFHNtI8-1vYeY8" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>The Young Mozart <span class="li-year">2004</span><span class="static-sub">Wolfgang Amadeus Mozart</span><span class="static-sub">Schott Editions.</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM93pjXzEHG5Mlt3j5VrPSCW" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>27 Little Preludes and Fugues <span class="li-year">2006</span><span class="static-sub">Johann Sebastian Bach</span><span class="static-sub">Ricordi Editions.</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_r0kiMxA3QEHIUBa1z5H6T" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Piano Course - Grade 1 <span class="li-year">2006</span><span class="static-sub">Michael Aaron</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-tDdBVGKuZT1072Ijz4w4f" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Piano Course - Grade 2 <span class="li-year">2006</span><span class="static-sub">Michael Aaron</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9yWEPWDVrfhDIbdtaGEPjA" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Piano Course - Grade 3 <span class="li-year">2006</span><span class="static-sub">Michael Aaron</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-F3RivbNEmNKqKPvUhJk2x" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Cecilia's First Album <span class="li-year">2006</span><span class="static-sub">Luz de Aurora</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-pK39kW6XrIykG1vGWwmWt" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>The First Steps of the Argentine Pianist <span class="li-year">2006</span><span class="static-sub">Rita Kurzmann</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_4KOXlndlp6OvPBsjxNQdH" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Basic Piano - Level 1 <span class="li-year">2006</span><span class="static-sub">James Bastien</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9Expk2ZPSpE48nADqtVFi1" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Basic Piano - Level 2 <span class="li-year">2006</span><span class="static-sub">James Bastien</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_mcvQ3blXdZvhFLIoN_HGi" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Little Fingers on the Keyboard <span class="li-year">2007</span><span class="static-sub">Rita Kappenberg</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_k3xrxL8varRK-ewzYbQtU" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Easy Piano Collection - Richard Clayderman <span class="li-year">2008</span><span class="static-sub">Richard Clayderman</span><span class="static-sub">Hal Leonard Editions.</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_ex7hc8XOeD5j-6pWbtPwb" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>First Album for Children, Op. 210 <span class="li-year">2009</span><span class="static-sub">Louis Köhler</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM86l971cBxF6LQeCNHE2ySG" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Second Album for Children, Op. 246 <span class="li-year">2009</span><span class="static-sub">Louis Köhler</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM8wS-R1eA7CBg6FyKaB4Ls_" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Mikrokosmos - Volume 1 <span class="li-year">2009</span><span class="static-sub">Béla Bartók</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://youtube.com/playlist?list=PLfzSWIJVDJM98nvUzp8Oa1RYc3ToqATxk&amp;si=7oW4RhSaJkZrpKdT" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Modern Course for the Piano - First Grade Book - Part 1 <span class="li-year">2009</span><span class="static-sub">John Thompson</span></div>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_AwDAlQNi3EL3cobVhXRDJ" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>Selection of Pieces - Volume 2 <span class="li-year">2017</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Jesu, meine Zuversicht - Johann Sebastian Bach</span></div>
@@ -633,27 +633,27 @@
             </div>
           </div>
         </details>
-        <div class="piece-acc-static">For Children - Volume 1 - Based on Hungarian Folk Tunes <span class="li-year">2025</span><span class="static-sub">Béla Bartók</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://youtube.com/playlist?list=OLAK5uy_ltXdk5tF3sPVeSw2DfWqabLIKVQE_N8Sc&amp;si=Vp-9TMwYzYWDsgw5" target="_blank" rel="noopener" aria-label="Open playlist on YouTube">▶</a>For Children - Volume 1 - Based on Hungarian Folk Tunes <span class="li-year">2025</span><span class="static-sub">Béla Bartók</span></div>
         </div>
 
         <h3>Piano Musical Arrangements (2)</h3>
 
         <div class="piece-acc-list">
-        <div class="piece-acc-static">La Cumparsita, Fantasy for Piano <span class="li-year">2017</span><span class="static-sub">Original by Gerardo Matos Rodríguez.</span></div>
-        <div class="piece-acc-static">Jealousy, Gypsy Tango <span class="li-year">2017</span><span class="static-sub">Original by Jacob Gade.</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://youtu.be/Fu_v8Vnv8n4" target="_blank" rel="noopener" aria-label="Open La Cumparsita on YouTube">▶</a>La Cumparsita, Fantasy for Piano <span class="li-year">2017</span><span class="static-sub">Original by Gerardo Matos Rodríguez.</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://youtu.be/_C6-fCilruQ" target="_blank" rel="noopener" aria-label="Open Jealousy, Gypsy Tango on YouTube">▶</a>Jealousy, Gypsy Tango <span class="li-year">2017</span><span class="static-sub">Original by Jacob Gade.</span></div>
         </div>
 
         <h3>Vocal and Piano Musical Arrangements (1)</h3>
 
         <div class="piece-acc-list">
-        <div class="piece-acc-static">Your Star Is Missing <span class="li-year">2021</span><span class="static-sub">Original: Emma Shapplin.<br>Virginia Berrondo, soprano<br>Ramiro Schiavoni, pianist</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://youtu.be/jpCkw36u2hE" target="_blank" rel="noopener" aria-label="Open Your Star Is Missing on YouTube">▶</a>Your Star Is Missing <span class="li-year">2021</span><span class="static-sub">Original: Emma Shapplin.<br>Virginia Berrondo, soprano<br>Ramiro Schiavoni, pianist</span></div>
         </div>
 
         <h3>Tangos (2)</h3>
 
         <div class="piece-acc-list">
-        <details class="piece-acc">
-          <summary>Selection of Works, Ástor Piazzolla <span class="li-year">2003</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM8H_0rOo4gC7YIHF_ykDlJQ" target="_blank" rel="noopener" aria-label="Open Selection of Works, Ástor Piazzolla playlist on YouTube">▶</a>Selection of Works, Ástor Piazzolla <span class="li-year">2003</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Contrabajeando</span></div>
@@ -678,8 +678,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Selection of Rio de la Plata Tangos <span class="li-year">2004</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-B87ctx9V57qMpXAlNJJMv" target="_blank" rel="noopener" aria-label="Open Selection of Rio de la Plata Tangos playlist on YouTube">▶</a>Selection of Rio de la Plata Tangos <span class="li-year">2004</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Taconeando - Pedro Maffia</span></div>
@@ -707,8 +707,8 @@
         <h3>Emotional Ballet Collection (7)</h3>
 
         <div class="piece-acc-list">
-        <details class="piece-acc">
-          <summary>Mix 1</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9QL48wrJit3u0FUfMALY_C" target="_blank" rel="noopener" aria-label="Open Mix 1 playlist on YouTube">▶</a>Mix 1</summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Allegretto - Always On My Mind - Pet Shop Boys</span></div>
@@ -739,8 +739,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Mix 2</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-Y2fsCOyEslbXcyepfIenN" target="_blank" rel="noopener" aria-label="Open Mix 2 playlist on YouTube">▶</a>Mix 2</summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Allegretto - Sounds Like a Melody - Alphaville</span></div>
@@ -771,8 +771,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Oldies 1</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM81C1Cya2wrsAfohgoEKR-5" target="_blank" rel="noopener" aria-label="Open Oldies 1 playlist on YouTube">▶</a>Oldies 1</summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Allegretto - Dancing Queen - ABBA</span></div>
@@ -803,8 +803,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Mix 3</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-tqjQBuMmw4JCRzKk7ubqU" target="_blank" rel="noopener" aria-label="Open Mix 3 playlist on YouTube">▶</a>Mix 3</summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Adagio - Trouble - Coldplay</span></div>
@@ -835,8 +835,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Oldies 2</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM_zLsgSJwKb6qRxZiJ5CER0" target="_blank" rel="noopener" aria-label="Open Oldies 2 playlist on YouTube">▶</a>Oldies 2</summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Adagio - Spending My Time - Roxette</span></div>
@@ -867,8 +867,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Mix 4</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM8nQonNLlMx0BBmh8A7qeHY" target="_blank" rel="noopener" aria-label="Open Mix 4 playlist on YouTube">▶</a>Mix 4</summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Adagio - Turning Tables - Adele</span></div>
@@ -899,8 +899,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Halloween</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM8zhOQiku8PyF3stXuKZdnP" target="_blank" rel="noopener" aria-label="Open Halloween playlist on YouTube">▶</a>Halloween</summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Allegretto - Hell Bells - AC/DC</span></div>
@@ -936,8 +936,8 @@
         <h3>Pop Music Producer (2)</h3>
 
         <div class="piece-acc-list">
-        <details class="piece-acc">
-          <summary>Versions of Me (Spanish)</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9KDx-GMfBIsnJddU0OUBjz" target="_blank" rel="noopener" aria-label="Open Versions of Me in Spanish playlist on YouTube">▶</a>Versions of Me (Spanish)</summary>
           <div class="piece-detail">
             <p class="piece-credit">Singer: Sebastián Sasen<br>Musical performance and production: Ramiro Schiavoni<br>Lyrics and music: Ramiro Schiavoni</p>
             <div class="track-list">
@@ -955,8 +955,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Versions of Me (English)</summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-8401rnWl4b7ZpKs25Dhnn" target="_blank" rel="noopener" aria-label="Open Versions of Me in English playlist on YouTube">▶</a>Versions of Me (English)</summary>
           <div class="piece-detail">
             <p class="piece-credit">Singer: Sebastián Sasen<br>Musical performance and production: Ramiro Schiavoni<br>Lyrics and music: Ramiro Schiavoni</p>
             <div class="track-list">
@@ -979,9 +979,9 @@
         <h3>Underground Techno Music Producer (3)</h3>
 
         <div class="piece-acc-list">
-        <div class="piece-acc-static">Cyberpunk <span class="li-year">2020</span><span class="static-sub">1. Cyberpunk</span></div>
-        <details class="piece-acc">
-          <summary>EDM Complot: Revolt <span class="li-year">2021</span></summary>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://youtu.be/qkpWuxGkojY" target="_blank" rel="noopener" aria-label="Open Cyberpunk on YouTube">▶</a>Cyberpunk <span class="li-year">2020</span><span class="static-sub">1. Cyberpunk</span></div>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=OLAK5uy_nbLiDaZKewC5iUtCMXflCODR2Q7xsm3x0&amp;si=Fh9AC114U2EZCx9j" target="_blank" rel="noopener" aria-label="Open EDM Complot: Revolt playlist on YouTube">▶</a>EDM Complot: Revolt <span class="li-year">2021</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Dark Flower</span></div>
@@ -1010,8 +1010,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Underground Techno, Vol. 1 <span class="li-year">2022</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://youtube.com/playlist?list=OLAK5uy_mSX40kHz402c-IAlm8mEV-l2LiaBapmCw&amp;si=TjUpgOCG8HTFL-aA" target="_blank" rel="noopener" aria-label="Open Underground Techno, Vol. 1 playlist on YouTube">▶</a>Underground Techno, Vol. 1 <span class="li-year">2022</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>Lost Soul</span></div>
@@ -1111,8 +1111,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Tertulia & Música <span class="li-year">2006</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9azn0OHVgBFGCAUR10S3Lh" target="_blank" rel="noopener" aria-label="Open Tertulia and Música playlist on YouTube">▶</a>Tertulia & Música <span class="li-year">2006</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Ernesto Recayte Puglia, baritone<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -1137,8 +1137,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Ernesto Recayte en Recital <span class="li-year">2008</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9tXxIXudkA2dZm2-HHilC0" target="_blank" rel="noopener" aria-label="Open Ernesto Recayte in Recital playlist on YouTube">▶</a>Ernesto Recayte en Recital <span class="li-year">2008</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Ernesto Recayte, baritone<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -1160,8 +1160,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Obras sacras <span class="li-year">2008</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-KSthzoeOs21I7Qh_W-Qro" target="_blank" rel="noopener" aria-label="Open Sacred Works playlist on YouTube">▶</a>Obras sacras <span class="li-year">2008</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Ernesto Recayte, baritone<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -1199,8 +1199,8 @@
             </div>
           </div>
         </details>
-        <details class="piece-acc">
-          <summary>Luis Federico Helgue y Ramiro Schiavoni en Concierto <span class="li-year">2017</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM-fOUy4Q07oce1Z94KtHnv2" target="_blank" rel="noopener" aria-label="Open Luis Federico Helgue and Ramiro Schiavoni in Concert playlist on YouTube">▶</a>Luis Federico Helgue y Ramiro Schiavoni en Concierto <span class="li-year">2017</span></summary>
           <div class="piece-detail">
             <p class="piece-credit">Luis Federico Helgue, tenor<br>Ramiro Schiavoni, pianist</p>
             <div class="track-list">
@@ -1221,14 +1221,14 @@
             </div>
           </div>
         </details>
-        <div class="piece-acc-static">Nana de Sevilla <span class="li-year">2019</span><span class="static-sub">Liz Mautone, mezzo-soprano<br>Ramiro Schiavoni, pianist</span><span class="static-sub">1. Lullaby of Seville - Old Spanish Songs, collected and arranged by Federico Garcia Lorca</span></div>
+        <div class="piece-acc-static has-playlist-static"><a class="album-playlist-link" href="https://youtu.be/h2KSCQvzM50" target="_blank" rel="noopener" aria-label="Open Lullaby of Seville on YouTube">▶</a>Nana de Sevilla <span class="li-year">2019</span><span class="static-sub">Liz Mautone, mezzo-soprano<br>Ramiro Schiavoni, pianist</span><span class="static-sub">1. Lullaby of Seville - Old Spanish Songs, collected and arranged by Federico Garcia Lorca</span></div>
         </div>
 
         <h3>Producer (2)</h3>
 
         <div class="piece-acc-list">
-        <details class="piece-acc">
-          <summary>Tertulia y Música <span class="li-year">2006</span></summary>
+        <details class="piece-acc has-playlist">
+          <summary><a class="album-playlist-link" href="https://www.youtube.com/playlist?list=PLfzSWIJVDJM9azn0OHVgBFGCAUR10S3Lh" target="_blank" rel="noopener" aria-label="Open Tertulia y Música playlist on YouTube">▶</a>Tertulia y Música <span class="li-year">2006</span></summary>
           <div class="piece-detail">
             <div class="track-list">
               <div class="track-item"><span class="track-num">1.</span><span>It Was the Girl - Lyrics: Julia Galemire; music: Antonio Cervino</span></div>
