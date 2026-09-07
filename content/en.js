@@ -23,6 +23,12 @@
 
         <div class="accordion-static"><h4>Technical synthesis for finger independence (1)</h4>
         <ul class="num-list">
+          <li class="li-row"><span class="li-title">14 Exercises</span><span class="li-leader"></span><span class="li-year">2003</span></li>
+        </ul>
+        </div>
+
+        <div class="accordion-static"><h4>To the artists (3)</h4>
+        <ul class="num-list">
           <li class="li-row"><span class="li-title">When Lili paints</span><span class="li-leader"></span><span class="li-year">2019</span></li>
           <li class="li-row"><span class="li-title">Chaos, Scherzo</span><span class="li-leader"></span><span class="li-year">2021</span></li>
           <li class="li-row"><span class="li-title">Iron can dance, Scherzo</span><span class="li-leader"></span><span class="li-year">2019</span></li>
@@ -150,53 +156,49 @@
         <h3>Piano editions (7)*</h3>
 
         <div class="piece-acc-list">
-          <p class="writer-book-count">(102 poems)</p>
         <div class="piece-acc-static">Nocturne in E Major <span class="li-year">2009</span><span class="static-sub">Gladys Colucci.</span></div>
         <div class="piece-acc-static">2 Criollas <span class="li-year">2009</span><span class="static-sub">Gladys Colucci.<br>I. The ombu<br>II. The ibirapita</span></div>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
+        <div class="piece-acc-static">Lullaby <span class="li-year">2009</span><span class="static-sub">Gladys Colucci.</span></div>
+        <div class="piece-acc-static">Music box <span class="li-year">2009</span><span class="static-sub">Gladys Colucci.</span></div>
+        <div class="piece-acc-static">Sentimental Waltz No. 3 <span class="li-year">2009</span><span class="static-sub">Gladys Colucci.</span></div>
+        <div class="piece-acc-static">Piano Course, Grades 1 and 2 <span class="li-year">2026</span><span class="static-sub">Michael Aaron.</span></div>
+        </div>
         <p class="footnote">(*) Editor of all of his musical works.</p>
 
         <h3>Bibliography (4)</h3>
 
-          <p class="writer-book-count">(102 poems)</p>
         <div class="piece-acc-list">
         <div class="piece-acc-static">Poems from a cloud <span class="li-year">2002</span><span class="static-sub">103 poems.</span></div>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
+        <div class="piece-acc-static">Poetry without shame <span class="li-year">2005</span><span class="static-sub">102 poems.</span></div>
+        <div class="piece-acc-static">Hidden poems <span class="li-year">2015</span><span class="static-sub">133 poems.</span></div>
+        <div class="piece-acc-static">We're story-driven <span class="li-year">2019</span><span class="static-sub">52 stories.</span></div>
+        </div>
         <h3>Audiovisuals (8)</h3>
 
         <div class="piece-acc-list">
         <div class="piece-acc-static">Remember <span class="li-year">2014</span></div>
-          <p class="writer-book-count">(133 poems)</p>
         <div class="piece-acc-static">Winter Is Here <span class="li-year">2014</span></div>
         <div class="piece-acc-static">This Is What I Am <span class="li-year">2014</span></div>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
+        <div class="piece-acc-static">Nocturnal Microuniverse <span class="li-year">2014</span><span class="static-sub">24 photographs.</span></div>
+        <div class="piece-acc-static">My Old Station <span class="li-year">2014</span><span class="static-sub">36 photographs.</span></div>
+        <div class="piece-acc-static">Cyberpunk <span class="li-year">2020</span></div>
+        <div class="piece-acc-static">No to Animal Abuse <span class="li-year">2021</span></div>
+        <div class="piece-acc-static">Arabian Nights <span class="li-year">2021</span></div>
         </div>` },
   { h: 198, s: '70%', l: '31%', title: 'Publications', text: `
         <h3>Interactive sheet music</h3>
         <p>Professional editions including audiovisual support material.</p>
-          <p class="writer-book-count">(52 stories)</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 5</span></div>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
-            <details class="piece-acc"><summary>Text</summary><div class="piece-detail"><p>Text to be added.</p></div></details>
+          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 6</span></div>
+          <div class="publication-carousel-stage">
+            <button class="publication-arrow publication-prev" type="button" aria-label="Previous publication">&#8249;</button>
+            <div class="publication-slides">
+              <a class="publication-slide is-active" href="https://ko-fi.com/s/3b2bd8f660" target="_blank" rel="noopener"><img src="assets/kofi/1_pianofacil1.jpg" alt="Cover of Piano Fácil"></a>
+              <a class="publication-slide" href="https://ko-fi.com/s/ec470cfde7" target="_blank" rel="noopener"><img src="assets/kofi/2_easypiano1.jpg" alt="Cover of Easy Piano"></a>
               <a class="publication-slide" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener"><img src="assets/kofi/3_tecnica.jpg" alt="Cover of piano technique"></a>
               <a class="publication-slide" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener"><img src="assets/kofi/4_opera_Lam.jpg" alt="Cover of the opera Lam"></a>
               <a class="publication-slide" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener"><img src="assets/kofi/5_aaron.jpg" alt="Cover of Aaron"></a>
+              <a class="publication-slide" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener"><img src="assets/kofi/6_poemas_nube.jpg" alt="Cover of Poemas desde una nube"></a>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Next publication">&#8250;</button>
           </div>
@@ -1280,7 +1282,7 @@
 
         <h3>Published Books</h3>
         <section class="writer-book">
-          <h4>Poemas desde una nube <span class="li-year">1989-2011</span></h4>
+          <div class="writer-book-heading"><h4>Poemas desde una nube <span class="li-year">1989-2011</span></h4><a class="writer-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Buy</a></div>
           <p class="writer-book-count">(102 poems)</p><p class="writer-book-subtitle">Selection</p>
           <div class="piece-acc-list">
             <details class="piece-acc"><summary>Emptiness</summary><div class="piece-detail"><p>I have an emptiness in my soul<br>that gnaws away at my senses,<br>nothing contents me, nothing satisfies me,<br>and I am easy prey for oblivion.<br>Emptiness I have within my soul,<br>caged inside of it,<br>unable to find the keys<br>to flee, alone and undermined.<br>My soul holds an emptiness<br>and sweetly resigns itself,<br>starved, and shivering with cold,<br>it stops saying yes to life.<br>Emptiness in my soul I carry,<br>and I can bear it no longer,<br>I run, I leap, I fly,<br>yet always at its absorbing side.<br>For my soul does not hold an emptiness &mdash;<br>rather, emptiness itself<br>is all I have for a soul.</p></div></details>

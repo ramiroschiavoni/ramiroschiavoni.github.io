@@ -775,12 +775,41 @@ body.panel-open .panel-inner{
 .panel-text .writer-book{
   margin: 1.25em 0 1.6em;
 }
+.panel-text .writer-book-heading{
+  display: flex;
+  align-items: center;
+  gap: .7em;
+}
 .panel-text .writer-book h4{
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   gap: .75em;
   margin: 0;
+  min-width: 0;
+  flex: 1;
+}
+.panel-text .writer-buy-link{
+  flex-shrink: 0;
+  padding: .35em .55em;
+  border: 1px solid rgba(255,255,255,.55);
+  color: #fff;
+  font-size: .68em;
+  font-weight: 800;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color .2s ease, color .2s ease;
+}
+.panel-text .writer-buy-link:hover,
+.panel-text .writer-buy-link:focus-visible{
+  background: #fff;
+  color: #111;
+}
+.panel-text .writer-buy-link:focus-visible{
+  outline: 1px solid #fff;
+  outline-offset: 3px;
 }
 .panel-text .writer-book h4 .li-year{
   flex-shrink: 0;

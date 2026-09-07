@@ -188,7 +188,7 @@
         <h3>Partituras interactivas</h3>
         <p>Ediciones profesionales con material de apoyo audiovisual incluido.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 5</span></div>
+          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 6</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Publicación anterior">&#8249;</button>
             <div class="publication-slides">
@@ -197,6 +197,7 @@
               <a class="publication-slide" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener"><img src="assets/kofi/3_tecnica.jpg" alt="Portada de Técnica pianística"></a>
               <a class="publication-slide" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener"><img src="assets/kofi/4_opera_Lam.jpg" alt="Portada de ópera Lam"></a>
               <a class="publication-slide" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener"><img src="assets/kofi/5_aaron.jpg" alt="Portada de Aaron"></a>
+              <a class="publication-slide" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener"><img src="assets/kofi/6_poemas_nube.jpg" alt="Portada de Poemas desde una nube"></a>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
           </div>
@@ -1280,7 +1281,7 @@
 
         <h3>Libros publicados</h3>
         <section class="writer-book">
-          <h4>Poemas desde una nube <span class="li-year">1989-2011</span></h4>
+          <div class="writer-book-heading"><h4>Poemas desde una nube <span class="li-year">1989-2011</span></h4><a class="writer-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Comprar</a></div>
           <p class="writer-book-count">(102 poemas)</p>
           <p class="writer-book-subtitle">Selección</p>
           <div class="piece-acc-list">
