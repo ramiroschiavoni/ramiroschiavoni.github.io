@@ -188,7 +188,7 @@
         <h3>Partituras interactivas</h3>
         <p>Ediciones profesionales con material de apoyo audiovisual incluido.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 6</span></div>
+          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 7</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Publicación anterior">&#8249;</button>
             <div class="publication-slides">
@@ -198,6 +198,7 @@
               <div class="publication-slide"><img src="assets/kofi/4_opera_Lam.jpg" alt="Portada de ópera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/5_aaron.jpg" alt="Portada de Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/6_poemas_nube.jpg" alt="Portada de Poemas desde una nube"><a class="publication-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/7_poesiaverguenza.jpg" alt="Portada de Poesía sin vergüenza"><a class="publication-buy-link" href="https://ko-fi.com/s/b5ce60273e" target="_blank" rel="noopener">Comprar</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
           </div>
@@ -1293,7 +1294,7 @@
           </div>
         </section>
         <section class="writer-book">
-          <div class="writer-book-heading"><h4>Poesía sin vergüenza <span class="li-year">2011-2015</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Comprar</span></div>
+          <div class="writer-book-heading"><h4>Poesía sin vergüenza <span class="li-year">2011-2015</span></h4><a class="writer-buy-link" href="https://ko-fi.com/s/b5ce60273e" target="_blank" rel="noopener">Comprar</a></div>
           <p class="writer-book-count">(102 poemas)</p>
           <p class="writer-book-subtitle">Selección</p>
           <div class="piece-acc-list">
