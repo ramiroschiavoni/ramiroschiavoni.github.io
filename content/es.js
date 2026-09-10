@@ -168,7 +168,7 @@
         <div class="piece-acc-list">
         <div class="piece-acc-static">Poemas desde una nube <span class="li-year">2002</span><span class="static-sub">103 poemas.</span></div>
         <div class="piece-acc-static">Poesía sin vergüenza <span class="li-year">2005</span><span class="static-sub">102 poemas.</span></div>
-        <div class="piece-acc-static">Poemas escondidos <span class="li-year">2015</span><span class="static-sub">133 poemas.</span></div>
+        <div class="piece-acc-static">Poemas escondidos <span class="li-year">2015</span><span class="static-sub">132 poemas.</span></div>
         <div class="piece-acc-static">Estamos de cuentos <span class="li-year">2019</span><span class="static-sub">52 cuentos.</span></div>
         </div>
 
@@ -188,7 +188,7 @@
         <h3>Partituras interactivas</h3>
         <p>Ediciones profesionales con material de apoyo audiovisual incluido.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 7</span></div>
+          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 8</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Publicación anterior">&#8249;</button>
             <div class="publication-slides">
@@ -199,6 +199,7 @@
               <div class="publication-slide"><img src="assets/kofi/5_aaron.jpg" alt="Portada de Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/6_poemas_nube.jpg" alt="Portada de Poemas desde una nube"><a class="publication-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/7_poesiaverguenza.jpg" alt="Portada de Poesía sin vergüenza"><a class="publication-buy-link" href="https://ko-fi.com/s/b5ce60273e" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/8_poemas_escondidos.jpg" alt="Portada de Poemas escondidos"><a class="publication-buy-link" href="https://ko-fi.com/s/52b1598cfd" target="_blank" rel="noopener">Comprar</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
           </div>
@@ -1306,8 +1307,8 @@
           </div>
         </section>
         <section class="writer-book">
-          <div class="writer-book-heading"><h4>Poemas escondidos <span class="li-year">2015-2017</span></h4><span class="writer-buy-link is-disabled" aria-disabled="true">Comprar</span></div>
-          <p class="writer-book-count">(133 poemas)</p>
+          <div class="writer-book-heading"><h4>Poemas escondidos <span class="li-year">2015-2017</span></h4><a class="writer-buy-link" href="https://ko-fi.com/s/52b1598cfd" target="_blank" rel="noopener">Comprar</a></div>
+          <p class="writer-book-count">(132 poemas)</p>
           <p class="writer-book-subtitle">Selección</p>
           <div class="piece-acc-list">
             <details class="piece-acc"><summary>Necesito saber</summary><div class="piece-detail"><p>Necesito saber<br>si tus ojos van a evitarme<br>o a buscarme<br>si tus brazos van a cobijarme<br>o a separarme<br>si tu juicio va a condenarme<br>o aceptarme<br>yo realmente necesito saber<br>si tu boca va a cerrarse<br>o a besarme<br>si tu cuerpo va a desearme<br>o a rechazarme<br>si tu voluntad va a conquistarme<br>u olvidarme<br>mi amor<br>yo necesito saber<br>si debo detener el tren de mi felicidad<br>porque nunca llegará a tu destino<br>si debo dejar de tratar de subir el muro<br>que separa tu inocencia de mi pecado<br>porque no estarás del otro lado para esperarme<br>si debo de una vez por todas olvidarme<br>y dejar de seducirte<br>realmente necesito saber<br>mi amor<br>si vas a amarme.</p></div></details>
