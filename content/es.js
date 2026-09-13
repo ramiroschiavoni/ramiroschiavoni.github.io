@@ -186,20 +186,32 @@
         </div>` },
   { h: 198, s: '70%', l: '31%', title: 'Publicaciones', text: `
         <h3>Partituras interactivas</h3>
-        <p>Ediciones profesionales con material de apoyo audiovisual incluido.</p>
+        <p>Ediciones profesionales bilingües -Español/Inglés- con material de apoyo audiovisual incluido.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 8</span></div>
+          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 5</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Publicación anterior">&#8249;</button>
             <div class="publication-slides">
-              <div class="publication-slide is-active"><img src="assets/kofi/1_pianofacil1.jpg" alt="Portada de Piano Fácil"><a class="publication-buy-link" href="https://ko-fi.com/s/3b2bd8f660" target="_blank" rel="noopener">Comprar</a></div>
-              <div class="publication-slide"><img src="assets/kofi/2_easypiano1.jpg" alt="Portada de Easy Piano"><a class="publication-buy-link" href="https://ko-fi.com/s/ec470cfde7" target="_blank" rel="noopener">Comprar</a></div>
-              <div class="publication-slide"><img src="assets/kofi/3_tecnica.jpg" alt="Portada de Técnica pianística"><a class="publication-buy-link" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener">Comprar</a></div>
-              <div class="publication-slide"><img src="assets/kofi/4_opera_Lam.jpg" alt="Portada de ópera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Comprar</a></div>
-              <div class="publication-slide"><img src="assets/kofi/5_aaron.jpg" alt="Portada de Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Comprar</a></div>
-              <div class="publication-slide"><img src="assets/kofi/6_poemas_nube.jpg" alt="Portada de Poemas desde una nube"><a class="publication-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Comprar</a></div>
-              <div class="publication-slide"><img src="assets/kofi/7_poesiaverguenza.jpg" alt="Portada de Poesía sin vergüenza"><a class="publication-buy-link" href="https://ko-fi.com/s/b5ce60273e" target="_blank" rel="noopener">Comprar</a></div>
-              <div class="publication-slide"><img src="assets/kofi/8_poemas_escondidos.jpg" alt="Portada de Poemas escondidos"><a class="publication-buy-link" href="https://ko-fi.com/s/52b1598cfd" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide is-active"><img src="assets/kofi/partituras/1_pianofacil1.jpg" alt="Portada de Piano Fácil"><a class="publication-buy-link" href="https://ko-fi.com/s/3b2bd8f660" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/2_easypiano1.jpg" alt="Portada de Easy Piano"><a class="publication-buy-link" href="https://ko-fi.com/s/ec470cfde7" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/3_tecnica.jpg" alt="Portada de Técnica pianística"><a class="publication-buy-link" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/4_opera_Lam.jpg" alt="Portada de ópera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/5_aaron.jpg" alt="Portada de Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Comprar</a></div>
+            </div>
+            <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
+          </div>
+        </div>
+
+        <h3>Libros de literatura</h3>
+        <p>Ediciones profesionales con texto en Español.</p>
+        <div class="publication-carousel" data-carousel>
+          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 3</span></div>
+          <div class="publication-carousel-stage">
+            <button class="publication-arrow publication-prev" type="button" aria-label="Publicación anterior">&#8249;</button>
+            <div class="publication-slides">
+              <div class="publication-slide is-active"><img src="assets/kofi/libros/1_poemas_nube.jpg" alt="Portada de Poemas desde una nube"><a class="publication-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/libros/2_poesiaverguenza.jpg" alt="Portada de Poesía sin vergüenza"><a class="publication-buy-link" href="https://ko-fi.com/s/b5ce60273e" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/libros/3_poemas_escondidos.jpg" alt="Portada de Poemas escondidos"><a class="publication-buy-link" href="https://ko-fi.com/s/52b1598cfd" target="_blank" rel="noopener">Comprar</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
           </div>
