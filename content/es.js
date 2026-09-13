@@ -205,13 +205,14 @@
         <h3>Libros de literatura</h3>
         <p>Ediciones profesionales con texto en Español.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 3</span></div>
+          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 4</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Publicación anterior">&#8249;</button>
             <div class="publication-slides">
               <div class="publication-slide is-active"><img src="assets/kofi/libros/1_poemas_nube.jpg" alt="Portada de Poemas desde una nube"><a class="publication-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/libros/2_poesiaverguenza.jpg" alt="Portada de Poesía sin vergüenza"><a class="publication-buy-link" href="https://ko-fi.com/s/b5ce60273e" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/libros/3_poemas_escondidos.jpg" alt="Portada de Poemas escondidos"><a class="publication-buy-link" href="https://ko-fi.com/s/52b1598cfd" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/libros/4_estamos_de_cuento.jpg" alt="Portada de Estamos de cuento"><a class="publication-buy-link" href="https://ko-fi.com/s/7d26b766e1" target="_blank" rel="noopener">Comprar</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
           </div>

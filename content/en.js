@@ -206,13 +206,14 @@
         <h3>Literature books</h3>
         <p>Professional editions with text in Spanish.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 3</span></div>
+          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 4</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Previous publication">&#8249;</button>
             <div class="publication-slides">
               <div class="publication-slide is-active"><img src="assets/kofi/libros/1_poemas_nube.jpg" alt="Cover of Poemas desde una nube"><a class="publication-buy-link" href="https://ko-fi.com/s/abf686042a" target="_blank" rel="noopener">Buy</a></div>
               <div class="publication-slide"><img src="assets/kofi/libros/2_poesiaverguenza.jpg" alt="Cover of Poesía sin vergüenza"><a class="publication-buy-link" href="https://ko-fi.com/s/b5ce60273e" target="_blank" rel="noopener">Buy</a></div>
               <div class="publication-slide"><img src="assets/kofi/libros/3_poemas_escondidos.jpg" alt="Cover of Poemas escondidos"><a class="publication-buy-link" href="https://ko-fi.com/s/52b1598cfd" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/libros/4_estamos_de_cuento.jpg" alt="Cover of Estamos de cuento"><a class="publication-buy-link" href="https://ko-fi.com/s/7d26b766e1" target="_blank" rel="noopener">Buy</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Next publication">&#8250;</button>
           </div>
