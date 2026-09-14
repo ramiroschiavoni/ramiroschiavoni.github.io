@@ -189,15 +189,14 @@
         <h3>Interactive sheet music</h3>
         <p>Bilingual professional editions -Spanish/English- with included audiovisual support material.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 5</span></div>
+          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 4</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Previous publication">&#8249;</button>
             <div class="publication-slides">
-              <div class="publication-slide is-active"><img src="assets/kofi/partituras/1_pianofacil1.jpg" alt="Cover of Piano Fácil"><a class="publication-buy-link" href="https://ko-fi.com/s/3b2bd8f660" target="_blank" rel="noopener">Buy</a></div>
-              <div class="publication-slide"><img src="assets/kofi/partituras/2_easypiano1.jpg" alt="Cover of Easy Piano"><a class="publication-buy-link" href="https://ko-fi.com/s/ec470cfde7" target="_blank" rel="noopener">Buy</a></div>
-              <div class="publication-slide"><img src="assets/kofi/partituras/3_tecnica.jpg" alt="Cover of piano technique"><a class="publication-buy-link" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener">Buy</a></div>
-              <div class="publication-slide"><img src="assets/kofi/partituras/4_opera_Lam.jpg" alt="Cover of the opera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Buy</a></div>
-              <div class="publication-slide"><img src="assets/kofi/partituras/5_aaron.jpg" alt="Cover of Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide is-active"><img src="assets/kofi/partituras/1.jpg" alt="Cover of Piano Fácil"><a class="publication-buy-link" href="https://ko-fi.com/s/3b2bd8f660" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/2.jpg" alt="Cover of Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/3.jpg" alt="Cover of piano technique"><a class="publication-buy-link" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/4.jpg" alt="Cover of the opera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Buy</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Next publication">&#8250;</button>
           </div>
