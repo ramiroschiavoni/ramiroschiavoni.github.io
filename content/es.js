@@ -188,7 +188,7 @@
         <h3>Partituras interactivas</h3>
         <p>Ediciones profesionales bilingües -Español/Inglés- con material de apoyo audiovisual incluido.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 4</span></div>
+          <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 5</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Publicación anterior">&#8249;</button>
             <div class="publication-slides">
@@ -196,6 +196,7 @@
               <div class="publication-slide"><img src="assets/kofi/partituras/2.jpg" alt="Portada de Aaron"><a class="publication-buy-link" href="https://ko-fi.com/s/5ff69c6ade" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/partituras/3.jpg" alt="Portada de Técnica pianística"><a class="publication-buy-link" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener">Comprar</a></div>
               <div class="publication-slide"><img src="assets/kofi/partituras/4.jpg" alt="Portada de ópera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Comprar</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/5.jpg" alt="Portada de Incondicional"><a class="publication-buy-link" href="https://ko-fi.com/s/e857b0fe83" target="_blank" rel="noopener">Comprar</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
           </div>
