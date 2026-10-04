@@ -189,7 +189,7 @@
         <h3>Interactive sheet music</h3>
         <p>Bilingual professional editions -Spanish/English- with included audiovisual support material.</p>
         <div class="publication-carousel" data-carousel>
-          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 5</span></div>
+          <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 6</span></div>
           <div class="publication-carousel-stage">
             <button class="publication-arrow publication-prev" type="button" aria-label="Previous publication">&#8249;</button>
             <div class="publication-slides">
@@ -198,6 +198,7 @@
               <div class="publication-slide"><img src="assets/kofi/partituras/3.jpg" alt="Cover of piano technique"><a class="publication-buy-link" href="https://ko-fi.com/s/61f8ca9dba" target="_blank" rel="noopener">Buy</a></div>
               <div class="publication-slide"><img src="assets/kofi/partituras/4.jpg" alt="Cover of the opera Lam"><a class="publication-buy-link" href="https://ko-fi.com/s/bd6c57a328" target="_blank" rel="noopener">Buy</a></div>
               <div class="publication-slide"><img src="assets/kofi/partituras/5.jpg" alt="Cover of Incondicional (Unconditional)"><a class="publication-buy-link" href="https://ko-fi.com/s/e857b0fe83" target="_blank" rel="noopener">Buy</a></div>
+              <div class="publication-slide"><img src="assets/kofi/partituras/6.jpg" alt="Cover of A Walk in the Clouds"><a class="publication-buy-link" href="https://ko-fi.com/s/b11feb95fd" target="_blank" rel="noopener">Buy</a></div>
             </div>
             <button class="publication-arrow publication-next" type="button" aria-label="Next publication">&#8250;</button>
           </div>
