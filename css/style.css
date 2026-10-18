@@ -385,6 +385,43 @@ body.panel-open .panel-inner{
   outline-offset: 3px;
 }
 
+.publication-pieces-list{
+  margin: .3em 0 1.4em;
+  padding: 0;
+  list-style: none;
+}
+.publication-pieces-list li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .65em 0;
+  border-bottom: 1px solid rgba(255,255,255,.15);
+}
+.panel-text a.publication-piece-buy-link{
+  flex: none;
+  padding: .55em .8em;
+  border: 1px solid rgba(255,255,255,.8);
+  background: rgba(17,17,17,.68);
+  color: #fff;
+  font-size: .72em;
+  font-weight: 800;
+  letter-spacing: .08em;
+  line-height: 1;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: background-color .2s ease, color .2s ease;
+}
+.panel-text a.publication-piece-buy-link:hover,
+.panel-text a.publication-piece-buy-link:focus-visible{
+  background: #fff;
+  color: #111;
+}
+.panel-text a.publication-piece-buy-link:focus-visible{
+  outline: 1px solid #fff;
+  outline-offset: 3px;
+}
+
 .audiovisual-slides{ aspect-ratio: 16 / 9; }
 .audiovisual-slide{
   position: absolute;

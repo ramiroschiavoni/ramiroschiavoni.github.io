@@ -185,7 +185,7 @@
         <div class="piece-acc-static">Arabian Nights <span class="li-year">2021</span></div>
         </div>` },
   { h: 198, s: '70%', l: '31%', title: 'Publicaciones', text: `
-        <h3>Partituras interactivas</h3>
+        <h3>Partituras interactivas · Libros</h3>
         <p>Ediciones profesionales bilingües -Español/Inglés- con material de apoyo audiovisual incluido.</p>
         <div class="publication-carousel" data-carousel>
           <div class="publication-carousel-head"><span>Publicaciones</span><span class="publication-counter" aria-live="polite">1 / 6</span></div>
@@ -202,6 +202,12 @@
             <button class="publication-arrow publication-next" type="button" aria-label="Siguiente publicación">&#8250;</button>
           </div>
         </div>
+
+        <h3>Partituras interactivas · Piezas</h3>
+        <ul class="publication-pieces-list">
+          <li><span><strong>Indefensos</strong> - Ramiro Schiavoni</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/bd7a25b31d" target="_blank" rel="noopener">Comprar</a></li>
+          <li><span><strong>Van Gogh</strong> - Virginio Aiello</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/9fb4888977" target="_blank" rel="noopener">Comprar</a></li>
+        </ul>
 
         <h3>Libros de literatura</h3>
         <p>Ediciones profesionales con texto en Español.</p>

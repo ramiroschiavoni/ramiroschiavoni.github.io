@@ -186,7 +186,7 @@
         <div class="piece-acc-static">Arabian Nights <span class="li-year">2021</span></div>
         </div>` },
   { h: 198, s: '70%', l: '31%', title: 'Publications', text: `
-        <h3>Interactive sheet music</h3>
+        <h3>Interactive sheet music · Books</h3>
         <p>Bilingual professional editions -Spanish/English- with included audiovisual support material.</p>
         <div class="publication-carousel" data-carousel>
           <div class="publication-carousel-head"><span>Publications</span><span class="publication-counter" aria-live="polite">1 / 6</span></div>
@@ -203,6 +203,12 @@
             <button class="publication-arrow publication-next" type="button" aria-label="Next publication">&#8250;</button>
           </div>
         </div>
+
+        <h3>Interactive sheet music · Pieces</h3>
+        <ul class="publication-pieces-list">
+          <li><span><strong>Helpless</strong> - Ramiro Schiavoni</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/bd7a25b31d" target="_blank" rel="noopener">Buy</a></li>
+          <li><span><strong>Van Gogh</strong> - Virginio Aiello</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/9fb4888977" target="_blank" rel="noopener">Buy</a></li>
+        </ul>
 
         <h3>Literature books</h3>
         <p>Professional editions with text in Spanish.</p>
