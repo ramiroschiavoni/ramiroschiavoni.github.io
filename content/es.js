@@ -206,6 +206,7 @@
         <h3>Partituras interactivas · Piezas</h3>
         <ul class="publication-pieces-list">
           <li><span><strong>Indefensos</strong> - Ramiro Schiavoni</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/bd7a25b31d" target="_blank" rel="noopener">Comprar</a></li>
+          <li><span><strong>No al maltrato animal</strong> - Ramiro Schiavoni</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/c716fa564e" target="_blank" rel="noopener">Comprar</a></li>
           <li><span><strong>Van Gogh</strong> - Virginio Aiello</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/9fb4888977" target="_blank" rel="noopener">Comprar</a></li>
         </ul>
 

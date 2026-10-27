@@ -207,6 +207,7 @@
         <h3>Interactive sheet music · Pieces</h3>
         <ul class="publication-pieces-list">
           <li><span><strong>Helpless</strong> - Ramiro Schiavoni</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/bd7a25b31d" target="_blank" rel="noopener">Buy</a></li>
+          <li><span><strong>No to animal abuse</strong> - Ramiro Schiavoni</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/c716fa564e" target="_blank" rel="noopener">Buy</a></li>
           <li><span><strong>Van Gogh</strong> - Virginio Aiello</span><a class="publication-piece-buy-link" href="https://ko-fi.com/s/9fb4888977" target="_blank" rel="noopener">Buy</a></li>
         </ul>
 
